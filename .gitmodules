@@ -1,0 +1,3 @@
+[submodule "victor-hugo-themes"] 
+  path = path_to_submodule 
+  url = git://https://github.com/technocrat/victor-hugo/tree/master/themes/hugo-academic
