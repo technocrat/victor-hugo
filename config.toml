@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 baseurl = "https://netify.com/technocrat/"
 languageCode = "en-us"
 title = "Locus: Richard Careaga"
@@ -73,3 +74,10 @@ enableEmoji = true
     width = 50
     height = 50
     alt = "Logo"
+=======
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+servr.daemon = TRUE
+>>>>>>> 5c1cd3ecf9bf0e8c262d221393aa77d9d122368d
