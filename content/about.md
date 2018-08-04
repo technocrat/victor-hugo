@@ -1,22 +1,61 @@
 ---
 title: "About"
-date: "2016-05-05T21:48:51-07:00"
+date: "2018-08-04T13:02:44-09:00"
 ---
 
-This is a minimal example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. Here you will find posts demonstrating how to use R Markdown features. For example:
+Richard Careaga lives in Kirkland, Washington, a suburb of Seattle. He studies analytic data science, walks, cooks, reads history and biography and contemplates visiting Iceland before they turn it into a *Game of Throne* theme park.
 
-- [**Adding citations**](/2017/08/28/adding-citations-to-posts/): how to add cites from an external BibTex file and how to cite R packages within a **blogdown** post.
+A Data Scientist is either a computer science expert interested in algorithms and operations optimization or a domain expert interested in solving problems with direct application. I’m the domain expert.
 
-- [**Adding R Markdown documents**](/2017/09/06/adding-r-markdown-documents-of-other-output-formats/): examples of how to render R Markdown documents as a PDF document and an HTML5 presentation using **blogdown**.
+### Education
 
-- [**Adding HTML widgets**](/2017/09/07/adding-htmlwidgets-to-r-markdown-posts/): we show you examples of embedding a DataTable from the [DT package](https://rstudio.github.io/DT/) and an interactive plot using the [plotly package](https://plot.ly/r/).
+* J.D. University of California, Davis (Honors) 
+* M.R.P. University of Massachusetts (planning)
+* M.S The Ohio State University (geology/geophysics) 
+* A.B. Occidental College (geology)
 
-- [**Adding R code**](/2017/09/07/adding-htmlwidgets-to-r-markdown-posts/): examples of using R chunks and inline R code.
+### Toolkit
 
-- [**Adding figures and images**](/2017/10/06/adding-figures-and-other-images-to-posts/): examples of including plots and .png files.
+* MySQL 
+* R
+* Python, NLTK, Networkx, Jupyter, pandas, numpy
+* Bash
 
-- [**Adding GIFs**](/2018/01/31/gif-animations/): shows how to make animated GIFs using plots made in R.
+### Representative Work
 
-View the GitHub repository for this website, including the raw R Markdown files for each of the posts, here: https://github.com/rbind/blogdown-demo
+* Produced only working cash flow model to Securities and Exchange Commission https://goo.gl/nBTnhC
+
+* Converted 100 spreadsheets to SQL database with 125,000 records andapproximately 50 fields to analyze causes of subprime mortgage loan defaults
+
+* Analyzed 500,000 emails, deduplicated and identified social networks
+
+### Business Experience
+
+Designed process flows for monthly, high-value transactions for sales of residential mortgage loans in bulk and in securitized form. Drafted standard forms and reviewed one- off substantive changes to transaction documents. Monitored corporate and credit authority for execution. Reviewed third-party participant required disclosures. Supervised regulatory filings in connection with registered offerings. Trained new business units in the use of ISDA (derivatives) agreements and accurate identification of counter party legal entity among affiliated companies.. Conformed contract forms to changes in applicable GAAP. Created database of purchase contracts tied to loan pools.
+
+### Portfolio
+
+Examples of completed and work in progress can be found at https:// technocrat.github.io/_book
+
+### Other links
+
+http://www.linkedin.com/in/richardcareaga \
+https://twitter.com/technocrat/ \
+https://github.com/technocrat/ \
+
+### Contact
+
+RICHARD CAREAGA \
+450 CENTRAL WAY UNIT 2203 \
+KIRKLAND, WA 98033\
+PUBLIC_@_CAREAGA.NET\
+425#289#6647 @TECHNOCRAT
+
+
+
+
+
+
+
 
 

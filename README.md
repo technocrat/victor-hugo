@@ -1,3 +1,3 @@
-# blogdown-demo
+# Locus: Richard Careaga
 
-A minimal website example based on **blogdown** to demonstrate R Markdown features such as citations, HTML widgets, and so on.
+On the internet no one knows you're dog unless you have a website.

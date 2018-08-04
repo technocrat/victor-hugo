@@ -1,6 +1,6 @@
-baseurl = "https://blogdown-demo.rbind.io/"
+baseurl = "https://netify.com/technocrat/"
 languageCode = "en-us"
-title = "A minimal example website using blogdown"
+title = "Locus: Richard Careaga"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -14,23 +14,46 @@ enableEmoji = true
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-
 [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 1
+
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rbind/blogdown-demo"
+    url = "https://github.com/technocrat"
     weight = 2
+
 [[menu.main]]
-    name = "Book"
-    url = "/book/"
+    name = "Portfolio"
+    url = "/https://technorat.github.io/_book/"
     weight = 3
+
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+
+    name = "Quotes"
+    url = "/quotes/"
     weight = 4
+
+[[menu.main]]
+
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/richardcareaga"
+    weight = 5
+
+[[menu.main]]
+
+    name = "Twitter"
+    url = "https://twitter.com/technocrat"
+    weight = 6
+
+[[menu.main]]
+
+    name = "Assignments"
+    url = "/assignments/"
+    weight = 7
+
+
 
 [params]
     description = "A website built through Hugo and blogdown."
@@ -50,4 +73,3 @@ enableEmoji = true
     width = 50
     height = 50
     alt = "Logo"
-
