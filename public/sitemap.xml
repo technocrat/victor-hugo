@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://technocrat.rbind.io/assignments/</loc>
-    <lastmod>2018-08-04T14:43:35-09:00</lastmod>
+    <loc>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/quotes/</loc>
-    <lastmod>2018-08-04T13:10:37-09:00</lastmod>
+    <loc>https://technocrat.rbind.io/assignments/</loc>
+    <lastmod>2018-08-04T14:43:35-09:00</lastmod>
   </url>
   
   <url>
@@ -28,11 +28,20 @@
   </url>
   
   <url>
+    <loc>https://technocrat.rbind.io/quotes/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/assignments/</loc>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://technocrat.rbind.io/1/01/01/</loc>
   </url>
   
   <url>
@@ -51,8 +60,14 @@
   </url>
   
   <url>
+    <loc>https://technocrat.rbind.io/tags/debugging/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/</loc>
-    <lastmod>2018-08-04T14:43:35-09:00</lastmod>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,13 +79,19 @@
   
   <url>
     <loc>https://technocrat.rbind.io/post/</loc>
-    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://technocrat.rbind.io/categories/programming/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/tags/</loc>
-    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

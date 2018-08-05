@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://technocrat.rbind.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An error message is as much of a question as it is an answer</title>
+      <link>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</guid>
+      <description>A question on datascience.stackexchange asked the reason for a Python syntax error
+SyntaxError: can&#39;t assign to literal  Another poster had the correct change to fix the error but the explanation didn&amp;rsquo;t reflect what the OP needed to understand the problem behind the problem, which was failing to be namespace aware &amp;ndash; he was trying to perform an operation on an undefined object.
+When you find the answer to a question you don&amp;rsquo;t understand, you can expect to see it again.</description>
+    </item>
     
     <item>
       <title>Newtonian Data Science</title>
@@ -19,6 +30,15 @@
       <guid>https://technocrat.rbind.io/2018/08/04/newtonian-data-science/</guid>
       <description>Most advanced machine learning and AI strike me as deterministic finite state machines with an error term. Properly tuned, the same input should produce much the same output every time. Like Newtonian physics, they can be complicated, but deconstructible into simple components. Like Newtonian physics, as well, they are highly accurate and reliable within their domain.
 What happens when we start applying the same tools to complex systems? What are the complex systems of importance that refuse to yield identical results with identical inputs?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://technocrat.rbind.io/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://technocrat.rbind.io/1/01/01/</guid>
+      <description>An error message is as much of a question as it is an answer       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>
