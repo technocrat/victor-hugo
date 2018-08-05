@@ -1,10 +1,14 @@
 
 ---
 title: "Well said"
-date: "2018-08-04T13:10:37-09:00" 
+date: "2018-08-04" 
 ---
 
 A collection of short thoughts.
+
+> The poverty of time makes beggars of us all
+
+[Jack Boger](https://www.nytimes.com/2018/08/02/magazine/marine-combat.html)
 
 > unless you have an indefinitely extensible repertoire of ways to use your candidate belief (if that is what it is) in different contexts, it is not a belief in any remotely recognizable sense.
 
