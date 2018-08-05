@@ -3,77 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/technocrat/assignments/</loc>
+    <loc>https://technocrat.rbind.io/assignments/</loc>
     <lastmod>2018-08-04T14:43:35-09:00</lastmod>
   </url>
   
   <url>
-    <loc>/technocrat/quotes/</loc>
+    <loc>https://technocrat.rbind.io/quotes/</loc>
     <lastmod>2018-08-04T13:10:37-09:00</lastmod>
   </url>
   
   <url>
-    <loc>/technocrat/portfolio/</loc>
+    <loc>https://technocrat.rbind.io/portfolio/</loc>
     <lastmod>2018-08-04T13:09:57-09:00</lastmod>
   </url>
   
   <url>
-    <loc>/technocrat/about/</loc>
+    <loc>https://technocrat.rbind.io/about/</loc>
     <lastmod>2018-08-04T13:02:44-09:00</lastmod>
   </url>
   
   <url>
-    <loc>/technocrat/2018/08/04/newtonian-data-science/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/04/newtonian-data-science/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/technocrat/assignments/</loc>
+    <loc>https://technocrat.rbind.io/assignments/</loc>
   </url>
   
   <url>
-    <loc>/technocrat/portfolio/</loc>
+    <loc>https://technocrat.rbind.io/portfolio/</loc>
   </url>
   
   <url>
-    <loc>/technocrat/1/01/01/</loc>
+    <loc>https://technocrat.rbind.io/quotes/</loc>
   </url>
   
   <url>
-    <loc>/technocrat/quotes/</loc>
-  </url>
-  
-  <url>
-    <loc>/technocrat/categories/</loc>
+    <loc>https://technocrat.rbind.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/technocrat/categories/data-science/</loc>
+    <loc>https://technocrat.rbind.io/categories/data-science/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/technocrat/</loc>
+    <loc>https://technocrat.rbind.io/</loc>
     <lastmod>2018-08-04T14:43:35-09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/technocrat/tags/meta/</loc>
+    <loc>https://technocrat.rbind.io/tags/meta/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/technocrat/post/</loc>
+    <loc>https://technocrat.rbind.io/post/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/technocrat/tags/</loc>
+    <loc>https://technocrat.rbind.io/tags/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

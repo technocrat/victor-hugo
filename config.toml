@@ -1,4 +1,4 @@
-baseurl = "https://netify.com/technocrat/"
+baseurl = "https://technocrat.rbind.io/"
 languageCode = "en-us"
 title = "Locus: Richard Careaga"
 theme = "hugo-lithium-theme"
@@ -26,7 +26,7 @@ enableEmoji = true
 
 [[menu.main]]
     name = "Portfolio"
-    url = "/https://technorat.github.io/_book/"
+    url = "https://technocrat.github.io/_book/"
     weight = 3
 
 [[menu.main]]
