@@ -3,54 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/technocrat/assignments/</loc>
+    <lastmod>2018-08-04T14:43:35-09:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/technocrat/quotes/</loc>
+    <lastmod>2018-08-04T13:10:37-09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/technocrat/portfolio/</loc>
+    <lastmod>2018-08-04T13:09:57-09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/technocrat/about/</loc>
+    <lastmod>2018-08-04T13:02:44-09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/technocrat/2018/08/04/newtonian-data-science/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/technocrat/assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/technocrat/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>/technocrat/1/01/01/</loc>
+  </url>
+  
+  <url>
+    <loc>/technocrat/quotes/</loc>
+  </url>
+  
+  <url>
+    <loc>/technocrat/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/technocrat/categories/data-science/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/technocrat/</loc>
+    <lastmod>2018-08-04T14:43:35-09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/technocrat/tags/meta/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/technocrat/post/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/technocrat/tags/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

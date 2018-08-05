@@ -1,7 +1,7 @@
 ---
 title: Newtonian Data Science
 author: Richard Careaga
-date: "2018-08-04T14:51:41-09:00"
+date: "2018-08-04"
 slug: newtonian-data-science
 categories:
   - Data Science
