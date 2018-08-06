@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2018-08-04T13:02:44-09:00"
+date: "2018-08-04"
 ---
 
 Richard Careaga lives in Kirkland, Washington, a suburb of Seattle. He studies analytic data science, walks, cooks, reads history and biography and contemplates visiting Iceland before they turn it into a *Game of Throne* theme park.

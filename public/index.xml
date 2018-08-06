@@ -4,21 +4,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Locus: Richard Careaga</title>
-    <link>https://technocrat.rbind.io/</link>
+    <link>/</link>
     <description>Recent content on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://technocrat.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An error message is as much of a question as it is an answer</title>
-      <link>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</link>
+      <link>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</guid>
+      <guid>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</guid>
       <description>&lt;p&gt;A &lt;a href=&#34;https://goo.gl/Z6jfuT&#34;&gt;question&lt;/a&gt; on datascience.stackexchange asked the reason for a Python syntax error&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;SyntaxError: can&#39;t assign to literal
@@ -31,31 +31,11 @@
     </item>
     
     <item>
-      <title>Assignments</title>
-      <link>https://technocrat.rbind.io/assignments/</link>
-      <pubDate>Sat, 04 Aug 2018 14:43:35 -0900</pubDate>
-      
-      <guid>https://technocrat.rbind.io/assignments/</guid>
-      <description>&lt;p&gt;I am available for short-to-medium term data analysis work remotely, Seattle based or on-site away from home. I also do &lt;em&gt;pro bono&lt;/em&gt; work for nonprofits. Please text me at #425#289#6647# to discuss if interested.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://technocrat.rbind.io/portfolio/</link>
-      <pubDate>Sat, 04 Aug 2018 13:09:57 -0900</pubDate>
-      
-      <guid>https://technocrat.rbind.io/portfolio/</guid>
-      <description>&lt;p&gt;My &lt;a href=&#34;https://technocrat.github.io/_book&#34;&gt;data science portfolio&lt;/a&gt; shows analyses that I have performed from real-world data (except where noted) and illustrates the range of tools I have in R, Python, MySQL, the standard bash utilities and statistics. As I pick up new techniques, I&amp;rsquo;ll be applying them there.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>About</title>
-      <link>https://technocrat.rbind.io/about/</link>
-      <pubDate>Sat, 04 Aug 2018 13:02:44 -0900</pubDate>
+      <link>/about/</link>
+      <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/about/</guid>
+      <guid>/about/</guid>
       <description>
 
 &lt;p&gt;Richard Careaga lives in Kirkland, Washington, a suburb of Seattle. He studies analytic data science, walks, cooks, reads history and biography and contemplates visiting Iceland before they turn it into a &lt;em&gt;Game of Throne&lt;/em&gt; theme park.&lt;/p&gt;
@@ -115,11 +95,21 @@ PUBLIC_@_CAREAGA.NET&lt;br /&gt;
     </item>
     
     <item>
-      <title>Newtonian Data Science</title>
-      <link>https://technocrat.rbind.io/2018/08/04/newtonian-data-science/</link>
+      <title>Assignments</title>
+      <link>/assignments/</link>
       <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/2018/08/04/newtonian-data-science/</guid>
+      <guid>/assignments/</guid>
+      <description>&lt;p&gt;I am available for short-to-medium term data analysis work remotely, Seattle based or on-site away from home. I also do &lt;em&gt;pro bono&lt;/em&gt; work for nonprofits. Please text me at #425#289#6647# to discuss if interested.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Newtonian Data Science</title>
+      <link>/2018/08/04/newtonian-data-science/</link>
+      <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/04/newtonian-data-science/</guid>
       <description>&lt;p&gt;Most advanced machine learning and AI strike me as deterministic finite state machines with an error term. Properly tuned, the same input should produce much the same output every time. Like Newtonian physics, they can be complicated, but deconstructible into simple components. Like Newtonian physics, as well, they are highly accurate and reliable within their domain.&lt;/p&gt;
 
 &lt;p&gt;What happens when we start applying the same tools to complex systems? What are the complex systems of importance that refuse to yield identical results with identical inputs? Health in its totality (not just diagnosing specific disorders), political stability, climate change are a few to come to mind. Our tools may appear to work&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:-&#34;&gt;&lt;a href=&#34;#fn:-&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; but then fail spectacularly. Now would be a good time to start worrying about this class of problems.&lt;/p&gt;
@@ -136,11 +126,21 @@ PUBLIC_@_CAREAGA.NET&lt;br /&gt;
     </item>
     
     <item>
-      <title>Well said</title>
-      <link>https://technocrat.rbind.io/quotes/</link>
+      <title>Portfolio</title>
+      <link>/portfolio/</link>
       <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/quotes/</guid>
+      <guid>/portfolio/</guid>
+      <description>&lt;p&gt;My &lt;a href=&#34;https://technocrat.github.io/_book&#34;&gt;data science portfolio&lt;/a&gt; shows analyses that I have performed from real-world data (except where noted) and illustrates the range of tools I have in R, Python, MySQL, the standard bash utilities and statistics. As I pick up new techniques, I&amp;rsquo;ll be applying them there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Well said</title>
+      <link>/quotes/</link>
+      <pubDate>Sat, 04 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/quotes/</guid>
       <description>&lt;p&gt;A collection of short thoughts.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -672,10 +672,10 @@ Bishop of Durham, Late Regius Professor of Divinity, Cambridge, and Canon of Wes
     
     <item>
       <title></title>
-      <link>https://technocrat.rbind.io/assignments/</link>
+      <link>/assignments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/assignments/</guid>
+      <guid>/assignments/</guid>
       <description>&lt;!DOCTYPE html&gt;
 
 &lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;
@@ -841,10 +841,10 @@ $(document).ready(function () {
     
     <item>
       <title></title>
-      <link>https://technocrat.rbind.io/portfolio/</link>
+      <link>/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/portfolio/</guid>
+      <guid>/portfolio/</guid>
       <description>&lt;!DOCTYPE html&gt;
 
 &lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;
@@ -1010,10 +1010,10 @@ $(document).ready(function () {
     
     <item>
       <title></title>
-      <link>https://technocrat.rbind.io/1/01/01/</link>
+      <link>/1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/1/01/01/</guid>
+      <guid>/1/01/01/</guid>
       <description>&lt;!DOCTYPE html&gt;
 
 &lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;
@@ -1185,10 +1185,10 @@ $(document).ready(function () {
     
     <item>
       <title></title>
-      <link>https://technocrat.rbind.io/quotes/</link>
+      <link>/quotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/quotes/</guid>
+      <guid>/quotes/</guid>
       <description>&lt;!DOCTYPE html&gt;
 
 &lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;

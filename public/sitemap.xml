@@ -3,94 +3,94 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</loc>
+    <loc>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/assignments/</loc>
-    <lastmod>2018-08-04T14:43:35-09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/portfolio/</loc>
-    <lastmod>2018-08-04T13:09:57-09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/about/</loc>
-    <lastmod>2018-08-04T13:02:44-09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/2018/08/04/newtonian-data-science/</loc>
+    <loc>/about/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/quotes/</loc>
+    <loc>/assignments/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/assignments/</loc>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/portfolio/</loc>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/quotes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/categories/data-science/</loc>
+    <loc>/2018/08/04/newtonian-data-science/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/portfolio/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/quotes/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/</loc>
+  </url>
+  
+  <url>
+    <loc>/quotes/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/tags/debugging/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/tags/meta/</loc>
+    <loc>/categories/data-science/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/post/</loc>
+    <loc>/tags/debugging/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/categories/programming/</loc>
+    <loc>/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/tags/</loc>
+    <loc>/tags/meta/</loc>
+    <lastmod>2018-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
