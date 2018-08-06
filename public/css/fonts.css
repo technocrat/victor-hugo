@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Surveyor';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Surveyor'), local('Surveyor-Regular'),
+       url('/Users/rc/Library/Fonts/');
+}
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gotham Regular'), local('Gotham-Regular'),
+       url('/users/rc/projects/victor-hugo/public/fonts/HCo_GothamSSm';
+}
+body {
+  font-family: 'Surveyor', serif;
+}
+h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
+  font-family: 'Gotham', sans-serif;
+}
