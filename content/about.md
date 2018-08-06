@@ -3,7 +3,7 @@ title: "About"
 date: "2018-08-04"
 ---
 
-Richard Careaga lives in Kirkland, Washington, a suburb of Seattle. He studies analytic data science, walks, cooks, reads history and biography and contemplates visiting Iceland before they turn it into a *Game of Throne* theme park.
+Richard Careaga lives in Kirkland, Washington, a suburb of Seattle. He studies analytic data science, walks, cooks, reads history and biography and contemplates visiting Iceland before they turn it into a *Game of Thrones* theme park.
 
 A Data Scientist is either a computer science expert interested in algorithms and operations optimization or a domain expert interested in solving problems with direct application. I’m the domain expert.
 

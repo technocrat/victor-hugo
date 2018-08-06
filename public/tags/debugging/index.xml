@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debugging on Locus: Richard Careaga</title>
+    <link>/tags/debugging/</link>
+    <description>Recent content in Debugging on Locus: Richard Careaga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An error message is as much of a question as it is an answer</title>
+      <link>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</guid>
+      <description>A question on datascience.stackexchange asked the reason for a Python syntax error
+SyntaxError: can&#39;t assign to literal  Another poster had the correct change to fix the error but the explanation didn&amp;rsquo;t reflect what the OP needed to understand the problem behind the problem, which was failing to be namespace aware &amp;ndash; he was trying to perform an operation on an undefined object.
+When you find the answer to a question you don&amp;rsquo;t understand, you can expect to see it again.</description>
+    </item>
+    
+  </channel>
+</rss>
