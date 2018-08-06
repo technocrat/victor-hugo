@@ -1,20 +1,22 @@
 @font-face {
-  font-family: 'Surveyor';
+  font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: local('Surveyor'), local('Surveyor-Regular'),
-       url('/Users/rc/Library/Fonts/');
+  src: local('Merriweather'), local('Merriweather-Regular'),
+       url('../fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
+       url('../fonts/merriweather-v13-latin-regular.woff') format('woff');
 }
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Gotham Regular'), local('Gotham-Regular'),
-       url('/users/rc/projects/victor-hugo/public/fonts/HCo_GothamSSm';
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v11-latin-regular.woff') format('woff');
 }
 body {
-  font-family: 'Surveyor', serif;
+  font-family: 'Merriweather', serif;
 }
 h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
