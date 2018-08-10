@@ -7,7 +7,7 @@ categories:
   - Data Science
 tags: [geospatial]
 ---
-If you are a paying member of [Flowing Data](https:flowingdata.com) (well worth the modest subscription), you will have received his email, reproduced at a [paywalled](https://flowingdata.com/2018/08/09/detailed-intentions/) portion of [Flowing Data].
+If you are a paying member of [Flowing Data](https:flowingdata.com) (well worth the modest subscription), you will have received his email, reproduced at a [paywalled](https://flowingdata.com/2018/08/09/detailed-intentions/) portion of the site.
 
 He gives a detailed critique of a precinct-by-precinct [map](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html#10.95/47.678/-122.200/106446) of the 2016 presidential election, nationwide, showing the number of votes for Trump and Clinton and the nearest precinct in which the opposing candidate was in the majority.
 
