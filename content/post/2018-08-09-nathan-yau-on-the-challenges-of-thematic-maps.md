@@ -7,7 +7,7 @@ categories:
   - Data Science
 tags: [geospatial]
 ---
-If you are a paying member of [Flowing Data](https:flowingdata.com) (well worth the modest subscription), you will have received his email, reproduce at a [paywalled](https://flowingdata.com/2018/08/09/detailed-intentions/) portion of [Flowing Data].
+If you are a paying member of [Flowing Data](https:flowingdata.com) (well worth the modest subscription), you will have received his email, reproduced at a [paywalled](https://flowingdata.com/2018/08/09/detailed-intentions/) portion of [Flowing Data].
 
 He gives a detailed critique of a precinct-by-precinct [map](https://www.nytimes.com/interactive/2018/upshot/election-2016-voting-precinct-maps.html#10.95/47.678/-122.200/106446) of the 2016 presidential election, nationwide, showing the number of votes for Trump and Clinton and the nearest precinct in which the opposing candidate was in the majority.
 
@@ -17,4 +17,4 @@ He compares what the map purports to show with what it actually *does* show, whi
 
 In other words, the larger precinct is "blue," while the smaller precinct is "red." But *twice* as red by headcount. 
 
-My own observation: Combined with our innate overperception of area and failing to weight voting results by percentage, we perceive a sea of red surrounding a few islands of blue. Nevermind, the national total blue vote was higher.
+My own observation: Combined with our innate overperception of area and failing to weight voting results by percentage, we perceive a sea of red surrounding a few islands of blue. However, the national total blue vote was higher.
