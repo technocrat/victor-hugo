@@ -1,10 +1,14 @@
 
 ---
 title: "Well said"
-date: "2018-08-04" 
+date: "2018-08-12" 
 ---
 
 A collection of short thoughts.
+
+> It’s easier to ask forgiveness than than it is to get permission.
+
+Admiral Grace Hopper (created human-readable source code, against all conventional wisdom)
 
 > The poverty of time makes beggars of us all
 
