@@ -13,7 +13,7 @@ In the days of our forebearers, if a tool broke, you were likely to fix it yours
 
 I've been one to use my own tools. I have to admit to being, at times, cavalier about corporate policies strictly forbidding the use of employee owned computers, at least in the building. (Why it was ok remotely without VPN is something of a mystery.)
 
-I took Admiral Hooper's adage to heart
+I took Admiral Hopper's adage to heart
 
 > It's easier to ask forgiveness than than it is to get permission.
 
@@ -37,7 +37,7 @@ Through the kindness of strangers, I learned of a compiler flag. I know, I know,
 
 And then it struck me. I'm not a programmer. I never wanted to be a programmer. I just wanted to be able to read and understand a program in a language as important as C++ and maybe write some simple programs that gave a hemibel boost to execution.
 
-As an analytic data science, I want to spend my time thinking about data and ways to extract useful information from them. I can't do that if I'm spending hours trying to figure out why syntactically valid software won't compile.
+As an analytic data scientist, I want to spend my time thinking about data and ways to extract useful information from them. I can't do that if I'm spending hours trying to figure out why syntactically valid software won't compile.
 
-I'll be cultivating friendships with data engineers and programmers.
+I'll be cultivating friendships with data engineers and programmers. 
 
