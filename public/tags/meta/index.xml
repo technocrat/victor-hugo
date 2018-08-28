@@ -6,10 +6,21 @@
     <description>Recent content in Meta on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The plural of data science is not formulae</title>
+      <link>/2018/08/14/the-plural-of-data-science-is-not-formulae/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/14/the-plural-of-data-science-is-not-formulae/</guid>
+      <description>The WSJ report of academic research on career hot streaks has snagged a lot of LinkedIn eyeballs today (Career &amp;lsquo;hot steaks&amp;rsquo; are real 1h ago • 3,526 readers).
+Reading the paper (https://goo.gl/2Mwqjn), you can see that it is an observational study of a convenience sample (these were the people about whom data were available, in the thousands or tens of thousands, an impressive collection).
+Two mysteries: Why were the data not stratified into a training set and a test set?</description>
+    </item>
     
     <item>
       <title>Newtonian Data Science</title>

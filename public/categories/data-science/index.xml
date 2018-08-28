@@ -6,10 +6,31 @@
     <description>Recent content in Data Science on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to debone the output of a linear regression model</title>
+      <link>/2018/08/27/how-to-debone-the-output-of-a-linear-regression-model/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/27/how-to-debone-the-output-of-a-linear-regression-model/</guid>
+      <description>I was recently puzzling over an academic paper in the social sciences with a multiple linear regression model that seemed off. (Communication with the authors educated me on considerations that resolved my concerns.)
+During the course of my puzzling, I compared what I was seeing as model output in the paper and what I expected to see based on experience. The embarrassing revelation dawned that I didn’t actually know what all those components meant.</description>
+    </item>
+    
+    <item>
+      <title>The plural of data science is not formulae</title>
+      <link>/2018/08/14/the-plural-of-data-science-is-not-formulae/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/14/the-plural-of-data-science-is-not-formulae/</guid>
+      <description>The WSJ report of academic research on career hot streaks has snagged a lot of LinkedIn eyeballs today (Career &amp;lsquo;hot steaks&amp;rsquo; are real 1h ago • 3,526 readers).
+Reading the paper (https://goo.gl/2Mwqjn), you can see that it is an observational study of a convenience sample (these were the people about whom data were available, in the thousands or tens of thousands, an impressive collection).
+Two mysteries: Why were the data not stratified into a training set and a test set?</description>
+    </item>
     
     <item>
       <title>Nathan Yau on the challenges of thematic maps</title>
@@ -17,7 +38,7 @@
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</guid>
-      <description>If you are a paying member of Flowing Data (well worth the modest subscription), you will have received his email, reproduce at a paywalled portion of [Flowing Data].
+      <description>If you are a paying member of Flowing Data (well worth the modest subscription), you will have received his email, reproduced at a paywalled portion of the site.
 He gives a detailed critique of a precinct-by-precinct map of the 2016 presidential election, nationwide, showing the number of votes for Trump and Clinton and the nearest precinct in which the opposing candidate was in the majority.
 He compares what the map purports to show with what it actually does show, which is the raw total of votes (ho-hum, we&amp;rsquo;ve known that for a long time) and the percentages.</description>
     </item>
