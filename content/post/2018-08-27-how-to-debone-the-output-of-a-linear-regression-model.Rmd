@@ -13,7 +13,7 @@ I was recently puzzling over an academic paper in the social sciences with a mul
 
 During the course of my puzzling, I compared what I was seeing as model output in the paper and what I expected to see based on experience. The embarrassing revelation dawned that I didn't actually *know* what all those components meant.
 
-So, I decided to find out. Data on [Seattle area housing prices] (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true) provide a convenient way to illustrate the usual output of a multiple linear regression model output. This is a 21K dataset with 19 variables on housing characteristics and sales price.
+So, I decided to find out. Data on [Seattle area housing prices](https://www.kaggle.com/harlfoxem/housesalesprediction?login=true) provide a convenient way to illustrate the usual output of a multiple linear regression model output. This is a 21K dataset with 19 variables on housing characteristics and sales price.
 
 ```{r mlr-example, echo=FALSE}
 library(readr)
