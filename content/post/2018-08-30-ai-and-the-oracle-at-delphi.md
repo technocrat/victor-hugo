@@ -32,7 +32,7 @@ Donald Knuth, in the forward to *A=B* (https://www.math.upenn.edu/~wilf/AeqB.pdf
 
 Why shouldn't we hold AI to the same standard, and require it to explain to humans?
 
-Finally, I am reminded of Croesus, a king in Asia Minor, not he of the Golden Touch. There were geopolitical issues with the Persian Emperor Cyrus, and Croesus make war plans. Like any good ruler of the time, he consulted the Oracles. A common report is
+Finally, I am reminded of Croesus, a king in Asia Minor, not he of the Golden Touch. There were geopolitical issues with the Persian Emperor Cyrus, and Croesus made war plans. Like any good ruler of the time, he consulted the Oracles. A common report is
 
 > If you go to war with the Persians, you will a destroy a great empire.
 
