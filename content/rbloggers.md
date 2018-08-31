@@ -1,1 +1,1 @@
-[RBloggers](http://feeds.feedburner.com/RBloggers)
+[RBloggers](https://www.r-bloggers.com)
