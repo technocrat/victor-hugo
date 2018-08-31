@@ -20,7 +20,7 @@ Canada is somewhat darker, but is exactly the shade of, surprise, China. (You ca
 
 Besides, although few people suffer from blue-light color blindness, it can be difficult to make fine distinctions among shades of blue.
 
-Here is a filtered version of the original that *addresses* but doesn't not represent a *good* approach to the problem, for which I'd need the underlying data.
+Here is a filtered version of the original that *addresses* but does not represent a *good* approach to the problem, for which I'd need the underlying data.
 
 <img src="https://s3-us-west-2.amazonaws.com/tuva/Divergent.png" alt="Alternative colors" style="width:800px;"/>
 
