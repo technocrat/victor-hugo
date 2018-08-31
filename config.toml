@@ -6,7 +6,7 @@ googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 enableEmoji = true
-
+baseURL = "https://technocrat.rbind.io/"
 [outputs]
     home = [ "HTML", "CSS", "RSS" ]
     section = [ "HTML", "RSS" ]
@@ -52,6 +52,12 @@ enableEmoji = true
     name = "Assignments"
     url = "/assignments/"
     weight = 7
+
+[[menu.main]]
+
+    name = "RBloggers"
+    url = "/http://feeds.feedburner.com/RBloggers/"
+    weight = 8
 
 [params]
     description = "A website built through Hugo and blogdown."
