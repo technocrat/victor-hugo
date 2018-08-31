@@ -12,7 +12,7 @@ The Federal Bureau of Investigation (**FBI**) has lead responsibilities for prot
 
 The map has no description or legend, but uses several shades of blue to distinguish among countries.
 
-![World Map](https://www.fbi.gov/image-repository/world-map-dark-blue.jpg)
+<img src="https://www.fbi.gov/image-repository/world-map-dark-blue.jpg" alt="World Map" style="width:800px;"/>
 
 A reasonable interpretation is that the color coding goes from light, representing the least threat, to dark blue, representing the greatest threat, if indeed this is a threat assessment. After all, how big a threat could lightest blue colored Greenland possibly pose?
 
@@ -22,8 +22,8 @@ Besides, although few people suffer from blue-light color blindness, it can be d
 
 Here is a filtered version of the original that *addresses* but doesn't not represent a *good* approach to the problem, for which I'd need the underlying data.
 
-![Alternative World Map](https://s3-us-west-2.amazonaws.com/tuva/Divergent.png)
- 
+<img src="https://s3-us-west-2.amazonaws.com/tuva/Divergent.png" alt="Alternative colors" style="width:800px;"/>
+
 In this color scheme, the good guys are green, the mild threats are a very low intensity purple, and the bad actors are in increasingly dark shades of purple. Ugly, I know, but easy to explain and interpret. The oceanic colors are a by-product of unnecessary decorative flourishes in the original.
 
 A data scientist who simply says "here are the numbers on a colored map" is not doing her job. Color communicates, and it had better do a good job of conveying an accurate understanding of the data it represents. Fortunately, there is a rich suite of tools, such as ColorBrewer (http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) to help the vast majority of data scientists who aren't trained as graphic designers.
