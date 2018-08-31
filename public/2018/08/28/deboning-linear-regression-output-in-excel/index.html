@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/73384/6600392/css/fonts.css" />
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.45.1" />
+
+
+<title>Deboning linear regression output in Excel - Locus: Richard Careaga</title>
+<meta property="og:title" content="Deboning linear regression output in Excel - Locus: Richard Careaga">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/technocrat">GitHub</a></li>
+    
+    <li><a href="https://technocrat.github.io/_book/">Portfolio</a></li>
+    
+    <li><a href="/quotes/">Quotes</a></li>
+    
+    <li><a href="https://linkedin.com/in/richardcareaga">LinkedIn</a></li>
+    
+    <li><a href="https://twitter.com/technocrat">Twitter</a></li>
+    
+    <li><a href="/assignments/">Assignments</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">Deboning linear regression output in Excel</h1>
+
+
+
+    
+    <span class="article-date">2018/08/28</span>
+    
+
+    
+    <br>
+      
+    
+
+    <div class="article-content">
+      <p>The other day (<a href="https://goo.gl/1W11Zu" class="uri">https://goo.gl/1W11Zu</a>), I outlined interpretation of the output of a multiple linear regression of data on [Seattle area housing prices (<a href="https://www.kaggle.com/harlfoxem/housesalesprediction?login=true" class="uri">https://www.kaggle.com/harlfoxem/housesalesprediction?login=true</a>), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in <strong>R</strong>. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s <strong>Excel’s</strong> turn.</p>
+<p>Disclosure: I’m not a fan of GUI for most applications. I find it slower and more error prone. Doing this replication elicited the usual grumbles, along with annoyance that multiple independent variables had to be in adjoining columns. Not hard to do, but … .</p>
+<p>For comparison, here is the output from yesterday’s R example, with the addition of an analysis of variance (ANOVA) table that Excel provides by default, but R doesn’t.</p>
+<pre><code>## [1] &quot;Data Structure&quot;</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   .default = col_integer(),
+##   id = col_character(),
+##   date = col_datetime(format = &quot;&quot;),
+##   price = col_double(),
+##   bathrooms = col_double(),
+##   floors = col_double(),
+##   lat = col_double(),
+##   long = col_double()
+## )</code></pre>
+<pre><code>## See spec(...) for full column specifications.</code></pre>
+<pre><code>## cols(
+##   id = col_character(),
+##   date = col_datetime(format = &quot;&quot;),
+##   price = col_double(),
+##   bedrooms = col_integer(),
+##   bathrooms = col_double(),
+##   sqft_living = col_integer(),
+##   sqft_lot = col_integer(),
+##   floors = col_double(),
+##   waterfront = col_integer(),
+##   view = col_integer(),
+##   condition = col_integer(),
+##   grade = col_integer(),
+##   sqft_above = col_integer(),
+##   sqft_basement = col_integer(),
+##   yr_built = col_integer(),
+##   yr_renovated = col_integer(),
+##   zipcode = col_integer(),
+##   lat = col_double(),
+##   long = col_double(),
+##   sqft_living15 = col_integer(),
+##   sqft_lot15 = col_integer()
+## )</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = price ~ bedrooms + bathrooms + sqft_living + sqft_lot + 
+##     yr_built, data = house)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -1784413  -131451   -16905   100357  3933748 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  6.006e+06  1.298e+05  46.281   &lt;2e-16 ***
+## bedrooms    -7.096e+04  2.246e+03 -31.592   &lt;2e-16 ***
+## bathrooms    8.114e+04  3.730e+03  21.755   &lt;2e-16 ***
+## sqft_living  3.044e+02  2.998e+00 101.544   &lt;2e-16 ***
+## sqft_lot    -3.388e-01  4.119e-02  -8.225   &lt;2e-16 ***
+## yr_built    -3.057e+03  6.686e+01 -45.730   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 245800 on 21607 degrees of freedom
+## Multiple R-squared:  0.552,  Adjusted R-squared:  0.5519 
+## F-statistic:  5325 on 5 and 21607 DF,  p-value: &lt; 2.2e-16</code></pre>
+<pre><code>## Analysis of Variance Table
+## 
+## Response: price
+##                Df     Sum Sq    Mean Sq   F value    Pr(&gt;F)    
+## bedrooms        1 2.7696e+14 2.7696e+14  4585.896 &lt; 2.2e-16 ***
+## bathrooms       1 5.3190e+14 5.3190e+14  8807.207 &lt; 2.2e-16 ***
+## sqft_living     1 6.6776e+14 6.6776e+14 11056.774 &lt; 2.2e-16 ***
+## sqft_lot        1 5.0788e+12 5.0788e+12    84.094 &lt; 2.2e-16 ***
+## yr_built        1 1.2630e+14 1.2630e+14  2091.268 &lt; 2.2e-16 ***
+## Residuals   21607 1.3049e+15 6.0394e+10                        
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<p>Here’s the corresponding output from Excel 2016 running under Parallels on an Apple laptop.</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/tuva/ExcelRegressionExample.png" alt="Excel Output" /> Let’s take the differences line-by-line</p>
+<ol style="list-style-type: decimal">
+<li>Summary Output: There may be an option tail to add it, but Excel doesn’t give you the formula for the model, the dependent and independent variables involved.</li>
+<li>Excel analysis of variance (ANOVA), separately available in R is provided.</li>
+<li>Regression Statistics:</li>
+</ol>
+<ul>
+<li>Excel adds “multiple R,” which is the square root of R Squared. It’s a measure of the goodness of predicting prices from the model, which can be calculated in R, but is not normally given in the output of the table. I couldn’t find any way in Excel of whether of specifying whether to use Kendall’s <em>tau</em> or Spearman’s <em>rho</em> statistic.</li>
+<li>Excel’s remaining reports overlap those of R, except for the omission of detail of residuals and the F statistics.</li>
+<li>Excel adds confidence intervals, which are available in R separately. It’s not clear what the difference between the pairs of column represents, and the 95% confidence interval is normally expessed in terms of a value for 92.5% and 97.5%.</li>
+<li>Most of the results differ from those given my R for the same data. Except in the cases of the 0 valued p-levels for the <em>t</em> statistic, these are not large, and it is beyond the scope of my post here to figure out why. But apparently different computations are involved.</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

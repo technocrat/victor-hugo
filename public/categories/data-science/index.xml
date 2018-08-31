@@ -6,10 +6,21 @@
     <description>Recent content in Data Science on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to debone linear regression output in Python</title>
+      <link>/2018/08/29/how-to-debone-linear-regression-output-in-python/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/29/how-to-debone-linear-regression-output-in-python/</guid>
+      <description>This post makes a trio with two most recent blogs on the same subject for R and Excel, this time in Python usking the sklearn package.
+The example given in the official documentation (https://goo.gl/GGmUKK) is somewhat sketchy and uses a different dataset than the previous two examples. Although the example dataset is different, my main purpose is to illustrate the default output.
+ OLS Regression Results ============================================================================== Dep. Variable: y R-squared: 0.</description>
+    </item>
     
     <item>
       <title>Deboning linear regression output in Excel</title>

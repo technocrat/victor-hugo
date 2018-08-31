@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geospatial on Locus: Richard Careaga</title>
+    <link>/tags/geospatial/</link>
+    <description>Recent content in Geospatial on Locus: Richard Careaga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/geospatial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nathan Yau on the challenges of thematic maps</title>
+      <link>/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</guid>
+      <description>If you are a paying member of Flowing Data (well worth the modest subscription), you will have received his email, reproduced at a paywalled portion of the site.
+He gives a detailed critique of a precinct-by-precinct map of the 2016 presidential election, nationwide, showing the number of votes for Trump and Clinton and the nearest precinct in which the opposing candidate was in the majority.
+He compares what the map purports to show with what it actually does show, which is the raw total of votes (ho-hum, we&amp;rsquo;ve known that for a long time) and the percentages.</description>
+    </item>
+    
+  </channel>
+</rss>

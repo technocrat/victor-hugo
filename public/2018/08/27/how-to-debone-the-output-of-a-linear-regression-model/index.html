@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/73384/6600392/css/fonts.css" />
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.45.1" />
+
+
+<title>How to debone the output of a linear regression model - Locus: Richard Careaga</title>
+<meta property="og:title" content="How to debone the output of a linear regression model - Locus: Richard Careaga">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/technocrat">GitHub</a></li>
+    
+    <li><a href="https://technocrat.github.io/_book/">Portfolio</a></li>
+    
+    <li><a href="/quotes/">Quotes</a></li>
+    
+    <li><a href="https://linkedin.com/in/richardcareaga">LinkedIn</a></li>
+    
+    <li><a href="https://twitter.com/technocrat">Twitter</a></li>
+    
+    <li><a href="/assignments/">Assignments</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">How to debone the output of a linear regression model</h1>
+
+
+
+    
+    <span class="article-date">2018/08/27</span>
+    
+
+    
+    <br>
+      
+    
+
+    <div class="article-content">
+      <p>I was recently puzzling over an academic paper in the social sciences with a multiple linear regression model that seemed off. (Communication with the authors educated me on considerations that resolved my concerns.)</p>
+<p>During the course of my puzzling, I compared what I was seeing as model output in the paper and what I expected to see based on experience. The embarrassing revelation dawned that I didn’t actually <em>know</em> what all those components meant.</p>
+<p>So, I decided to find out. Data on <a href="https://www.kaggle.com/harlfoxem/housesalesprediction?login=true">Seattle area housing prices</a> provide a convenient way to illustrate the usual output of a multiple linear regression model output. This is a 21K dataset with 19 variables on housing characteristics and sales price.</p>
+<pre><code>## [1] &quot;Data Structure&quot;</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   .default = col_integer(),
+##   id = col_character(),
+##   date = col_datetime(format = &quot;&quot;),
+##   price = col_double(),
+##   bathrooms = col_double(),
+##   floors = col_double(),
+##   lat = col_double(),
+##   long = col_double()
+## )</code></pre>
+<pre><code>## See spec(...) for full column specifications.</code></pre>
+<pre><code>## cols(
+##   id = col_character(),
+##   date = col_datetime(format = &quot;&quot;),
+##   price = col_double(),
+##   bedrooms = col_integer(),
+##   bathrooms = col_double(),
+##   sqft_living = col_integer(),
+##   sqft_lot = col_integer(),
+##   floors = col_double(),
+##   waterfront = col_integer(),
+##   view = col_integer(),
+##   condition = col_integer(),
+##   grade = col_integer(),
+##   sqft_above = col_integer(),
+##   sqft_basement = col_integer(),
+##   yr_built = col_integer(),
+##   yr_renovated = col_integer(),
+##   zipcode = col_integer(),
+##   lat = col_double(),
+##   long = col_double(),
+##   sqft_living15 = col_integer(),
+##   sqft_lot15 = col_integer()
+## )</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = price ~ bedrooms + bathrooms + sqft_living + sqft_lot + 
+##     yr_built, data = house)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -1784413  -131451   -16905   100357  3933748 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  6.006e+06  1.298e+05  46.281   &lt;2e-16 ***
+## bedrooms    -7.096e+04  2.246e+03 -31.592   &lt;2e-16 ***
+## bathrooms    8.114e+04  3.730e+03  21.755   &lt;2e-16 ***
+## sqft_living  3.044e+02  2.998e+00 101.544   &lt;2e-16 ***
+## sqft_lot    -3.388e-01  4.119e-02  -8.225   &lt;2e-16 ***
+## yr_built    -3.057e+03  6.686e+01 -45.730   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 245800 on 21607 degrees of freedom
+## Multiple R-squared:  0.552,  Adjusted R-squared:  0.5519 
+## F-statistic:  5325 on 5 and 21607 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p>Well now! I pick a handful of variables off the top of my head and presto! My model explains over 50% of the variation in price. Am I good or what?</p>
+<p>Not really, and I’ll explain all the bonehead errors in another post (didn’t normalize, didn’t split into training and test sets, used variables that are not truly independent, didn’t check the distribution of residual errors and a host of other sins). Let’s talk about the information you get from a multiple linear regression results table.</p>
+<ol style="list-style-type: decimal">
+<li>The Call is an explicit statement of the model.</li>
+<li>The Residuals show a summary distribution of the differences between the observations and predictions. In this example half of the residuals are about, low, up to $17,000 and and half are above, including one whopper that’s almost $4 million high.</li>
+<li>The Coefficients include, in addition to the coefficient and standard error, a t value and the probability that the coefficient is greater that the absolute value of the t value. It is essentially equivalent to the significance level – the probability, which is extremely low in this example, of the results being due to random effects.</li>
+<li>The Signif. codes are for convenient reference to the size of the significance level.</li>
+<li>The Residual standard error indicates the average amount that the observed values deviate from the trend line, in this case approximately $246,000.</li>
+<li>Multiple R Squared, indicates the proportion of variance explained by the coefficient, holding the other coefficients constant.</li>
+<li>Adjusted R Squared, accounts for possible interaction among the other independent variables.</li>
+<li>The F-statistic addresses the question of whether there is, in fact, no relation between one or more of the independent variables and the coefficient. An F-statistic that approaches 1 precludes us from rejecting the null hypothesis of no relation and to conclude that there is, in fact, no relationship at all between one or more of the independent variable with the dependent. The degrees of freedom equals the number of data points, minus 1. The p-value, or significance, gives the probability that the F-statistic is merely the result of random chance. The extremely low p-value in this example indicates that the F-statistic is highly unlikely to be a chance artifact.</li>
+</ol>
+<p>As I said before, there are defects in my model that render these results garbage, and my table should be accompanied by a discussion that the conditions required to make multiple linear regression are actually unsatisfied. It’s solely to illustrate the information provided in the table.</p>
+<p>Just goes to show you don’t really understand something you haven’t tried to explain.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
