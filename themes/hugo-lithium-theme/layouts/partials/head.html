@@ -28,9 +28,5 @@
 {{ end }}
 {{ partial "head_highlightjs" . }}
 <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/73384/6600392/css/fonts.css" />
-<link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" media="all">
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
-{{ range .Site.Params.customCSS }}
-<link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
 {{ partial "head_custom" . }}
