@@ -14,7 +14,7 @@ Reading the paper (https://goo.gl/2Mwqjn), you can see that it is an observation
 
 Two mysteries: Why were the data not stratified into a training set and a test set? How could temporal auto-correlation fail to be addressed?
 
-$f(x) = y$
+$$f(x)=y$$
 
 isn't data science. And observational data of temporal patterns in somewhat simplistic metrics of an arbitrarily selected population tells you *menos de zero* about individuals outside the population. 
 
