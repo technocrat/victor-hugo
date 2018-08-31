@@ -1,18 +1,22 @@
 @font-face {
-  font-family: 'Gotham';
-  font-style: bold;
-  font-weight: 400;
-  src: https://s3.console.aws.amazon.com/s3/buckets/tuva/678264/?region=us-east-1
-}
-@font-face {
-  font-family: 'Surveyor';
+  font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src: https://s3.console.aws.amazon.com/s3/buckets/tuva/678264/?region=us-east-1
+  src: local('Merriweather'), local('Merriweather-Regular'),
+       url('../fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
+       url('../fonts/merriweather-v13-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v11-latin-regular.woff') format('woff');
 }
 body {
-  font-family: 'Surveyor', serif;
+  font-family: 'Merriweather', serif;
 }
 h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Lato', sans-serif;
 }

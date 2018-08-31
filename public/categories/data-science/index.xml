@@ -6,10 +6,30 @@
     <description>Recent content in Data Science on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Unbearable Lightness of Coloring Maps</title>
+      <link>/2018/08/31/the-unbearable-lightness-of-coloring-maps/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/31/the-unbearable-lightness-of-coloring-maps/</guid>
+      <description>The Federal Bureau of Investigation (FBI) has lead responsibilities for protecting the United States against domestic crimes initiated abroad. These responsibilities include protection against &amp;ldquo;covert actions by foreign governments to influence U.S. political sentiment or public discourse&amp;rdquo; (https://www.fbi.gov/investigate/counterintelligence/foreign-influence). It has illustrated its mission description with a world map that appears to classify nations by the threats they pose.
+The map has no description or legend, but uses several shades of blue to distinguish among countries.</description>
+    </item>
+    
+    <item>
+      <title>AI and the Oracle at Delphi</title>
+      <link>/2018/08/30/ai-and-the-oracle-at-delphi/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/30/ai-and-the-oracle-at-delphi/</guid>
+      <description>I attended a nice Meetup last night, and one of the speakers quoted Turing&amp;rsquo;s description of a program able to modify its own instructions as a good description of artificial intelligence (AI) and another had a nifty typology relating all the standard tools in data science to their role in AI. This set me to thinking about the standards to which AI should be held.
+I began a thought experiment:</description>
+    </item>
     
     <item>
       <title>How to debone linear regression output in Python</title>
