@@ -56,7 +56,7 @@ baseURL = "https://technocrat.rbind.io/"
 [[menu.main]]
 
     name = "RBloggers"
-    url = "/http://feeds.feedburner.com/RBloggers/"
+    url = "https://www.r-bloggers.com"
     weight = 8
 
 [params]
