@@ -1,8 +1,8 @@
 ---
-title: WaPo has some effective visualiztions
+title: WaPo has some effective visualizations
 author: Richard Careaga
 date: '2018-09-09'
-slug: wapo-has-some-effective-visualiztions
+slug: wapo-has-some-effective-visualizations
 categories:
   - Visualization
 tags:
