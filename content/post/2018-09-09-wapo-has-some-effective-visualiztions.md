@@ -15,12 +15,12 @@ Heather Long is illustrated by some effective techniques.
 
 One technique is using the colors in the caption to serve as a legend to color coding in the graphic.
 
-![](https://wapo.st/2Ns8wbQ){ width=75% }
+![](https://wapo.st/2Ns8wbQ){ width=50% }
 
 ___
 The other is the use of two views of data separated by a caption giving the common variable identifications.
 
-![](https://wapo.st/2NxkdOo){ width=75% }
+![](https://wapo.st/2NxkdOo){ width=50% }
 
 ___
 
