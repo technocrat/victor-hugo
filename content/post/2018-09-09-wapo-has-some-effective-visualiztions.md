@@ -1,0 +1,27 @@
+---
+title: WaPo has some effective visualiztions
+author: Richard Careaga
+date: '2018-09-09'
+slug: wapo-has-some-effective-visualiztions
+categories:
+  - Visualization
+tags:
+  - design
+---
+One of the annoyances of online newspapers such as the NYT and WaPo is that they recycle content, usually off-the-news-cycle. But this sometimes gets offset by finding something you missed the first time.
+
+In a recent article on [six common occcupations that have changed from above-average to below average pay](https://wapo.st/2NwrDBw), the 2018-09-04 article by  Andrew Van Dam and
+Heather Long is illustrated by some effective techniques.
+
+One technique is using the colors in the caption to serve as a legend to color coding in the graphic.
+
+![](https://wapo.st/2Ns8wbQ)
+
+___
+The other is the use of two views of data separated by a caption giving the common variable identifications.
+
+![](https://wapo.st/2NxkdOo)
+
+___
+
+A lot of design thought goes into communicating with economy, and these are two good examples.
