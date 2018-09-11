@@ -71,9 +71,8 @@ Thorstein Veblen, *Theory of the Leisure Class*
 > There is something to be said about going for fat, complacent industries.
 
 Herbert Hovencamp, speaking of *stodgy* incumbent  wireless providers, quoted in [NYT](http://nyti.ms/1P4moUZ)
-<hr>
-> "I think the answer is, it’s okay to addict people as long as your business model doesn’t depend on it," he said, as if finally finding the answer to a problem that had long seemed without a solution. "That’s the answer," he added. "That’s the answer." by Andrew Thompson
 
+> "I think the answer is, it’s okay to addict people as long as your business model doesn’t depend on it," he said, as if finally finding the answer to a problem that had long seemed without a solution. "That’s the answer," he added. "That’s the answer." by Andrew Thompson
 
 [Slot machines perfected addictive gaming. Now, tech wants their tricks The Verge via NextDraft]: http://nxt.fm/1P4n"10S 
 <hr>
