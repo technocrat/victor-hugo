@@ -6,10 +6,51 @@
     <description>Recent content in Posts on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cognitive styles of data science</title>
+      <link>/2018/09/10/cognitive-styles-of-data-science/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/10/cognitive-styles-of-data-science/</guid>
+      <description>Yihui Xie of RMarkdown fame has a long, thoughtful post (https://goo.gl/WjA7t8) on a debate for and against working in various types of interactive notebooks, such as Juypter for the Python platform, IDEs like RStudio in its so-called &amp;ldquo;notebook mode&amp;rdquo; and the old school heavy code commenting, among other approaches. Although that&amp;rsquo;s the primary subject, he weaves in some astute observations of the differences among &amp;ldquo;data scientists&amp;rdquo; based on whether their perspective grows from data origins or is aimed at ultimately producing software.</description>
+    </item>
+    
+    <item>
+      <title>WaPo has some effective visualizations</title>
+      <link>/2018/09/09/wapo-has-some-effective-visualizations/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/09/wapo-has-some-effective-visualizations/</guid>
+      <description>One of the annoyances of online newspapers such as the NYT and WaPo is that they recycle content, usually off-the-news-cycle. But this sometimes gets offset by finding something you missed the first time.
+In a recent article on six common occcupations that have changed from above-average to below average pay, the 2018-09-04 article by Andrew Van Dam and Heather Long is illustrated by some effective techniques.
+One technique is using the colors in the caption to serve as a legend to color coding in the graphic.</description>
+    </item>
+    
+    <item>
+      <title>Deboning simple linear regression output in TensorFlow</title>
+      <link>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</guid>
+      <description>A simple linear regression example in TensorFlow&amp;trade; is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
+Testing set Mean Abs Error: $2788.86  Time spent searching the documentation turned up no references to &amp;ldquo;intercept&amp;rdquo;, &amp;ldquo;coefficient&amp;rdquo;, &amp;ldquo;F-statistic&amp;rdquo;, &amp;ldquo;t-value,&amp;rdquo; or &amp;ldquo;p-value.&amp;rdquo;
+I am only beginning to dip my toes into TensorFlow&amp;trade;. I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
+    </item>
+    
+    <item>
+      <title>Go Not Considered Harmful</title>
+      <link>/2018/09/02/go-not-considered-harmful/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/02/go-not-considered-harmful/</guid>
+      <description>I had my first exposure to programming in a FORTRAN class with real punchcards, back in the day, before I knew that GOTO was considered harmful. The exposure was brief and left me wondering whether Russian verbs of motion might not be easier to study, after all.
+In the years to follow, I ran the occasional canned deck with my datacards through overnight batch queues, but did not return to anything that could be called programming until I acquired an HP-25 calculator with a macro language, followed shortly by an HP-97 with little magnetic strips on which to record them.</description>
+    </item>
     
     <item>
       <title>The Unbearable Lightness of Coloring Maps</title>
@@ -48,7 +89,7 @@ The example given in the official documentation (https://goo.gl/GGmUKK) is somew
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/28/deboning-linear-regression-output-in-excel/</guid>
-      <description>The other day (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on [Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
+      <description>The other day (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
     </item>
     
     <item>
@@ -175,6 +216,42 @@ What happens when we start applying the same tools to complex systems? What are 
       
       <guid>/1/01/01/</guid>
       <description>The Unbearable Lightness of Coloring Maps       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>Go Not Considered Harmful       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>Deboning simple linear regression output in TensorFlow       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>WaPo has some effective visualiztions       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>Cognitive styles of data science       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>

@@ -6,10 +6,30 @@
     <description>Recent content in Data Science on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cognitive styles of data science</title>
+      <link>/2018/09/10/cognitive-styles-of-data-science/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/10/cognitive-styles-of-data-science/</guid>
+      <description>Yihui Xie of RMarkdown fame has a long, thoughtful post (https://goo.gl/WjA7t8) on a debate for and against working in various types of interactive notebooks, such as Juypter for the Python platform, IDEs like RStudio in its so-called &amp;ldquo;notebook mode&amp;rdquo; and the old school heavy code commenting, among other approaches. Although that&amp;rsquo;s the primary subject, he weaves in some astute observations of the differences among &amp;ldquo;data scientists&amp;rdquo; based on whether their perspective grows from data origins or is aimed at ultimately producing software.</description>
+    </item>
+    
+    <item>
+      <title>Deboning simple linear regression output in TensorFlow</title>
+      <link>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</guid>
+      <description>A simple linear regression example in TensorFlow&amp;trade; is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
+Testing set Mean Abs Error: $2788.86  Time spent searching the documentation turned up no references to &amp;ldquo;intercept&amp;rdquo;, &amp;ldquo;coefficient&amp;rdquo;, &amp;ldquo;F-statistic&amp;rdquo;, &amp;ldquo;t-value,&amp;rdquo; or &amp;ldquo;p-value.&amp;rdquo;
+I am only beginning to dip my toes into TensorFlow&amp;trade;. I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
+    </item>
     
     <item>
       <title>The Unbearable Lightness of Coloring Maps</title>
@@ -48,7 +68,7 @@ The example given in the official documentation (https://goo.gl/GGmUKK) is somew
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/28/deboning-linear-regression-output-in-excel/</guid>
-      <description>The other day (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on [Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
+      <description>The other day (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
     </item>
     
     <item>

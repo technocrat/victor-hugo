@@ -22,7 +22,7 @@
 {{ if .Keywords }}
 <meta property="keywords" content ="{{ delimit .Keywords ", " }}">
 {{ end }}
-
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/73384/6600392/css/fonts.css" />
 {{ if .RSSLink }}
 <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}

@@ -6,10 +6,21 @@
     <description>Recent content in Statistics on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deboning simple linear regression output in TensorFlow</title>
+      <link>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</guid>
+      <description>A simple linear regression example in TensorFlow&amp;trade; is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
+Testing set Mean Abs Error: $2788.86  Time spent searching the documentation turned up no references to &amp;ldquo;intercept&amp;rdquo;, &amp;ldquo;coefficient&amp;rdquo;, &amp;ldquo;F-statistic&amp;rdquo;, &amp;ldquo;t-value,&amp;rdquo; or &amp;ldquo;p-value.&amp;rdquo;
+I am only beginning to dip my toes into TensorFlow&amp;trade;. I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
+    </item>
     
     <item>
       <title>How to debone linear regression output in Python</title>
@@ -28,7 +39,7 @@ The example given in the official documentation (https://goo.gl/GGmUKK) is somew
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/28/deboning-linear-regression-output-in-excel/</guid>
-      <description>The other day (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on [Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
+      <description>The other day (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
     </item>
     
     <item>
