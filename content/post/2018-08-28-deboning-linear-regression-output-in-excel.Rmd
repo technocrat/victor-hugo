@@ -30,7 +30,7 @@ anova(mod)
 Here's the corresponding output from Excel 2016 running under Parallels on an Apple laptop.
 
 ![Excel Output](https://s3-us-west-2.amazonaws.com/tuva/ExcelRegressionExample.png)
- Let's take the differences line-by-line
+Let's take the differences line-by-line
  
 1. Summary Output: There may be an option tail to add it, but Excel doesn't give you the formula for the model, the dependent and independent variables involved.
 2. Excel analysis of variance (ANOVA), separately available in R is provided.
