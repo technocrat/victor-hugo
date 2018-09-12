@@ -1,4 +1,3 @@
-
 ---
 title: "Well said"
 date: "2018-08-12" 
