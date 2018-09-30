@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/rbloggers/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/quotes/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/09/18/deboning-linear-regression-in-excel/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
   </url>
@@ -58,11 +68,6 @@
   </url>
   
   <url>
-    <loc>/quotes/</loc>
-    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
   </url>
@@ -93,71 +98,7 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignments/</loc>
-  </url>
-  
-  <url>
-    <loc>/portfolio/</loc>
-  </url>
-  
-  <url>
     <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/quotes/</loc>
-  </url>
-  
-  <url>
-    <loc>/rbloggers/</loc>
-  </url>
-  
-  <url>
-    <loc>/rbloggers/</loc>
   </url>
   
   <url>
@@ -215,7 +156,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

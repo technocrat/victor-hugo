@@ -6,10 +6,20 @@
     <description>Recent content in Data Science on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ordinary Least Squares Linear Regression Walkthrough for Beginners</title>
+      <link>/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</guid>
+      <description>Ordinary Least Squares Linear Regression Ordinary linear least squares regression is one of the first statistical methods that anyone learns who is trying to understand how two sets of numbers relate. It has an undeserved reputation of being able to foretell the future, but it is mathematically tractable, simple to apply, and often yields either directly usable results or signals the need for more sophisticated tools.
+The idea is simple enough, find the line that passes through points in Cartesian (x,y 2-dimensional space) that minimizes the total distance (another over-simplification) between each point and the line.</description>
+    </item>
     
     <item>
       <title>Deboning linear regression output in Excel</title>
@@ -26,7 +36,7 @@
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/09/10/cognitive-styles-of-data-science/</guid>
-      <description>Yihui Xie of RMarkdown fame has a long, thoughtful post (https://goo.gl/WjA7t8) on a debate for and against working in various types of interactive notebooks, such as Juypter for the Python platform, IDEs like RStudio in its so-called &amp;ldquo;notebook mode&amp;rdquo; and the old school heavy code commenting, among other approaches. Although that&amp;rsquo;s the primary subject, he weaves in some astute observations of the differences among &amp;ldquo;data scientists&amp;rdquo; based on whether their perspective grows from data origins or is aimed at ultimately producing software.</description>
+      <description>Yihui Xie of RMarkdown fame has a long, thoughtful post (https://goo.gl/WjA7t8) on a debate for and against working in various types of interactive notebooks, such as Juypter for the Python platform, IDEs like RStudio in its so-called “notebook mode” and the old school heavy code commenting, among other approaches. Although that’s the primary subject, he weaves in some astute observations of the differences among “data scientists” based on whether their perspective grows from data origins or is aimed at ultimately producing software.</description>
     </item>
     
     <item>
@@ -35,9 +45,9 @@
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</guid>
-      <description>A simple linear regression example in TensorFlow&amp;trade; is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
-Testing set Mean Abs Error: $2788.86  Time spent searching the documentation turned up no references to &amp;ldquo;intercept&amp;rdquo;, &amp;ldquo;coefficient&amp;rdquo;, &amp;ldquo;F-statistic&amp;rdquo;, &amp;ldquo;t-value,&amp;rdquo; or &amp;ldquo;p-value.&amp;rdquo;
-I am only beginning to dip my toes into TensorFlow&amp;trade;. I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
+      <description>A simple linear regression example in TensorFlow(TM) is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
+Testing set Mean Abs Error: $2788.86 Time spent searching the documentation turned up no references to “intercept”, “coefficient”, “F-statistic”, “t-value,” or “p-value.”
+I am only beginning to dip my toes into TensorFlow(TM). I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
     </item>
     
     <item>
@@ -46,7 +56,7 @@ I am only beginning to dip my toes into TensorFlow&amp;trade;. I suspect that it
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/31/the-unbearable-lightness-of-coloring-maps/</guid>
-      <description>The Federal Bureau of Investigation (FBI) has lead responsibilities for protecting the United States against domestic crimes initiated abroad. These responsibilities include protection against &amp;ldquo;covert actions by foreign governments to influence U.S. political sentiment or public discourse&amp;rdquo; (https://www.fbi.gov/investigate/counterintelligence/foreign-influence). It has illustrated its mission description with a world map that appears to classify nations by the threats they pose.
+      <description>The Federal Bureau of Investigation (FBI) has lead responsibilities for protecting the United States against domestic crimes initiated abroad. These responsibilities include protection against “covert actions by foreign governments to influence U.S. political sentiment or public discourse” (https://www.fbi.gov/investigate/counterintelligence/foreign-influence). It has illustrated its mission description with a world map that appears to classify nations by the threats they pose.
 The map has no description or legend, but uses several shades of blue to distinguish among countries.</description>
     </item>
     
@@ -56,7 +66,7 @@ The map has no description or legend, but uses several shades of blue to disting
       <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/30/ai-and-the-oracle-at-delphi/</guid>
-      <description>I attended a nice Meetup last night, and one of the speakers quoted Turing&amp;rsquo;s description of a program able to modify its own instructions as a good description of artificial intelligence (AI) and another had a nifty typology relating all the standard tools in data science to their role in AI. This set me to thinking about the standards to which AI should be held.
+      <description>I attended a nice Meetup last night, and one of the speakers quoted Turing’s description of a program able to modify its own instructions as a good description of artificial intelligence (AI) and another had a nifty typology relating all the standard tools in data science to their role in AI. This set me to thinking about the standards to which AI should be held.
 I began a thought experiment:</description>
     </item>
     
@@ -87,7 +97,7 @@ During the course of my puzzling, I compared what I was seeing as model output i
       <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/08/14/the-plural-of-data-science-is-not-formulae/</guid>
-      <description>The WSJ report of academic research on career hot streaks has snagged a lot of LinkedIn eyeballs today (Career &amp;lsquo;hot steaks&amp;rsquo; are real 1h ago • 3,526 readers).
+      <description>The WSJ report of academic research on career hot streaks has snagged a lot of LinkedIn eyeballs today (Career ‘hot steaks’ are real 1h ago • 3,526 readers).
 Reading the paper (https://goo.gl/2Mwqjn), you can see that it is an observational study of a convenience sample (these were the people about whom data were available, in the thousands or tens of thousands, an impressive collection).
 Two mysteries: Why were the data not stratified into a training set and a test set?</description>
     </item>
@@ -100,7 +110,7 @@ Two mysteries: Why were the data not stratified into a training set and a test s
       <guid>/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</guid>
       <description>If you are a paying member of Flowing Data (well worth the modest subscription), you will have received his email, reproduced at a paywalled portion of the site.
 He gives a detailed critique of a precinct-by-precinct map of the 2016 presidential election, nationwide, showing the number of votes for Trump and Clinton and the nearest precinct in which the opposing candidate was in the majority.
-He compares what the map purports to show with what it actually does show, which is the raw total of votes (ho-hum, we&amp;rsquo;ve known that for a long time) and the percentages.</description>
+He compares what the map purports to show with what it actually does show, which is the raw total of votes (ho-hum, we’ve known that for a long time) and the percentages.</description>
     </item>
     
     <item>

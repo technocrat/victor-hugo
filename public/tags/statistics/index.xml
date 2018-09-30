@@ -6,10 +6,20 @@
     <description>Recent content in Statistics on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ordinary Least Squares Linear Regression Walkthrough for Beginners</title>
+      <link>/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</guid>
+      <description>Ordinary Least Squares Linear Regression Ordinary linear least squares regression is one of the first statistical methods that anyone learns who is trying to understand how two sets of numbers relate. It has an undeserved reputation of being able to foretell the future, but it is mathematically tractable, simple to apply, and often yields either directly usable results or signals the need for more sophisticated tools.
+The idea is simple enough, find the line that passes through points in Cartesian (x,y 2-dimensional space) that minimizes the total distance (another over-simplification) between each point and the line.</description>
+    </item>
     
     <item>
       <title>Deboning linear regression output in Excel</title>
@@ -26,9 +36,9 @@
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</guid>
-      <description>A simple linear regression example in TensorFlow&amp;trade; is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
-Testing set Mean Abs Error: $2788.86  Time spent searching the documentation turned up no references to &amp;ldquo;intercept&amp;rdquo;, &amp;ldquo;coefficient&amp;rdquo;, &amp;ldquo;F-statistic&amp;rdquo;, &amp;ldquo;t-value,&amp;rdquo; or &amp;ldquo;p-value.&amp;rdquo;
-I am only beginning to dip my toes into TensorFlow&amp;trade;. I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
+      <description>A simple linear regression example in TensorFlow(TM) is given at (https://www.tensorflow.org/tutorials/keras/basic_regression). By default, it produces none of the outputs of linear regression, other than MAE or MSE, on request through a print statement.
+Testing set Mean Abs Error: $2788.86 Time spent searching the documentation turned up no references to “intercept”, “coefficient”, “F-statistic”, “t-value,” or “p-value.”
+I am only beginning to dip my toes into TensorFlow(TM). I suspect that it exists not so much as a suite of modeling tools so much as a platform to express them in n-dimensional space very efficiently.</description>
     </item>
     
     <item>
