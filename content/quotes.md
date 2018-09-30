@@ -14,6 +14,7 @@ G. M. Trevelyan, Bias in History
 
 Admiral Grace Hopper (created human-readable source code, against all conventional wisdom)
 <hr>
+
 > The poverty of time makes beggars of us all
 
 [Jack Boger](https://www.nytimes.com/2018/08/02/magazine/marine-combat.html)

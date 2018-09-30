@@ -35,7 +35,7 @@ Designed process flows for monthly, high-value transactions for sales of residen
 
 ### Portfolio
 
-Examples of completed and work in progress can be found at https://technocrat.github.io/_book
+Examples of completed and work in progress can be found at https://technocrat.github.io/
 
 ### Other links
 
