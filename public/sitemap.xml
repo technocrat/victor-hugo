@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/rbloggers/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
@@ -98,10 +103,6 @@
   </url>
   
   <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/algol/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -114,7 +115,7 @@
   
   <url>
     <loc>/categories/data-science/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -168,7 +169,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -192,7 +193,7 @@
   
   <url>
     <loc>/tags/statistics/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
