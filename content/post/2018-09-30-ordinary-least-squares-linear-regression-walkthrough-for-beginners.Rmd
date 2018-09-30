@@ -28,9 +28,10 @@ A regression, such as miles per gallon against horsepower, may give you plot of 
 library(ggplot2)
 library(ISLR)
 data(Auto)
-ggplot(data = Auto, aes(x = mpg, y = horsepower)) + geom_point(color='blue') + geom_smooth(method = "lm", se = FALSE)
+#ggplot(data = Auto, aes(x = mpg, y = horsepower)) + geom_point(color='blue') + geom_smooth(method = "lm", se = FALSE)
 ``` 
-
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig1.png)
+ 
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
 fit <- lm(mpg ~ horsepower, data = Auto)
@@ -43,9 +44,11 @@ Even better, the model summary indicates a high coefficient of correlation, R^2^
 In [another post](https://goo.gl/1W11Zu), I've discussed interpreting the model summary, but I haven't mentioned the graphical methods that are a critical part of understanding what the data are telling you.
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
-par(mfrow=c(2,2))
-plot(fit)
+#par(mfrow=c(2,2))
+#plot(fit)
 ``` 
+
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig2.png)
 
 
 Ideally, in the two plots on the left hand side, we would like to see points clustered along the centerline. On the upper right, we would like to see most of the points -- the residuals obtained from the distance of a point pair from the dashed line that represents a normal distirubtion -- line up. On the lower right, we don't want to see a curve being "pulled up" by far off outliers.^[The technical explanation of the plots I've save for another post.]
@@ -53,25 +56,31 @@ Ideally, in the two plots on the left hand side, we would like to see points clu
 The departures from the ideal are easy enough to spot. What to do about them? Let's look at the initial data again, this time without the trend line.
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
-ggplot(data = Auto, aes(x = mpg, y = horsepower)) + geom_point(color="blue")
+#ggplot(data = Auto, aes(x = mpg, y = horsepower)) + geom_point(color="blue")
 ``` 
+
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig3.png)
 
 How would you draw a line by hand through the points? Would it be two straight lines? A decay curve?
 
 Sometimes, we can improve fit through transforming the scale of one or both variables. A commonly used transformation is to express one variable as a natural logarithm (which is the default in **R**; other bases are available, such as decimal -- log10()). For this dataset a log-log transformation has a slight advantage.
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
-ggplot(data = Auto, aes(x = log(mpg), y = log(horsepower))) + geom_point(color="blue") + geom_smooth(method = "lm", se = FALSE)
+#ggplot(data = Auto, aes(x = log(mpg), y = log(horsepower))) + geom_point(color="blue") + geom_smooth(method = "lm", se = FALSE)
 ``` 
+
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig4.png)
 
 This results in an improvement of R^2^ and a large decrease in the standard error. The plots show minimal non-linearity, the residuals are now very close to being normally distributed, and outliers show negligible effect.
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
 fit2 <- lm(log(mpg) ~ log(horsepower), data = Auto)
 pander(summary(fit2))
-par(mfrow=c(2,2))
-plot(fit2)
+#par(mfrow=c(2,2))
+#plot(fit2)
 ``` 
+
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig5.png)
 
 ## Sometimes it's not even this subtle
 
@@ -92,13 +101,19 @@ pander(summary(mod4))
 Looking before you leap:
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
-par(mfrow=c(2,2))
-ggplot(data = anscombe, aes(x = x1, y = y1)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
-ggplot(data = anscombe, aes(x = x2, y = y2)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
-ggplot(data = anscombe, aes(x = x3, y = y3)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
-ggplot(data = anscombe, aes(x = x4, y = y4)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
+#par(mfrow=c(2,2))
+#ggplot(data = anscombe, aes(x = x1, y = y1)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
+#ggplot(data = anscombe, aes(x = x2, y = y2)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
+#ggplot(data = anscombe, aes(x = x3, y = y3)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
+#ggplot(data = anscombe, aes(x = x4, y = y4)) + geom_point(color='red') + geom_smooth(method = "lm", se = FALSE)
 
 ``` 
+
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig6.png)
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig7.png)
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig8.png)
+![](https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig9.png)
+
 ___
 
 **Credits**
