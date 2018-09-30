@@ -31,7 +31,7 @@ data(Auto)
 #ggplot(data = Auto, aes(x = mpg, y = horsepower)) + geom_point(color='blue') + geom_smooth(method = "lm", se = FALSE)
 ``` 
 
-<img src="https://s3-us-west-2.amazonaws.com/tuva/2018-09-29-fig1.png" alt="" style="width:800px;"/>
+<img src="https://s3-us-west-2.amazonaws.com/tuva/2018-09-30-fig1.png" alt="" style="width:800px;"/>
  
 
 ```{r, results="asis", echo = FALSE, warning=FALSE}
