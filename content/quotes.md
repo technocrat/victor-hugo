@@ -1,9 +1,14 @@
 ---
 title: "Well said"
-date: "2018-08-12" 
+date: "2018-09-30"
 ---
 
 A collection of short thoughts.
+
+> Many who burnt heretics in the ordinary way of their business were otherwise excellent people.
+
+G. M. Trevelyan, Bias in History
+<hr>
 
 > It’s easier to ask forgiveness than than it is to get permission.
 
