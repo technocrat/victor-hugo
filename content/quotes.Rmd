@@ -5,6 +5,10 @@ date: "2018-09-30"
 
 A collection of short thoughts.
 
+> ... but we struggle to provide realistic assessments of uncertainty. Also consider the problem that big data suggests a massive number of hypotheses with less protection against the danger of false positive results.
+
+"When small data beats big data" by Julian Faraway and Nicole Augustin https://goo.gl/LhAPh5
+<hr>
 > Right now my field must tackle describing a world where falling in love, going to war and filling out tax forms looks the same; it looks like typing.
 
 [Quinn Norton](https://goo.gl/fGb6BM)
