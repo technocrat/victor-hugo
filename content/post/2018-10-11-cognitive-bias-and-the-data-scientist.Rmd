@@ -23,9 +23,9 @@ Parts of the statistical community, in common with the comman man, raised the ir
 
 *Ab initio* as those fond of showing obsolete erudition might say, or, more appropriately, at the beginning, the contestant had odds of 1:3 to choose the right door. Meaning, she also had odds of 2:3 of choosing the wrong door. She chose sides, as she was compelled to do, as to which was the right door. She knew that the joint probability of the other two doors containing the prize were 2:3. 
 
-Now, comes the hard part. She already knew that only one of the other doors had the real prize, and since there were two of them, the chances were 50-50, *between them*. Gaining the knowledge of *which one* of the doors had the winning 50% chance changed her estimate of the odds of the *remaining* door relative to the open door, but it did nothing (or should have done nothing) to change the estimate of *her* door relative to the **joint** probability of the other two doors.
+Now, comes the hard part. She already knew that only one of the other doors could have the real prize if she didn't, and since there were two of them, the chances were 50-50, *between them*. Gaining the knowledge of *which one* of the doors did *not* have the winning 50% chance changed her estimate of the odds of the *remaining* door relative to the open door, but it did nothing (or should have done nothing) to change the estimate of *her* door relative to the **joint** probability of the other two doors.
 
-More simply, she started with a 1:3 chance of winning. She still has a 1:3 chance of winning, but **she still now knows** that the remaining alternative has a 2:3 chance of winning. Therefore, she doubles her chances by switching.
+More simply, she started with a 1:3 chance of winning. She still has a 1:3 chance of winning, but **she now knows** that the remaining alternative has a 2:3 chance of winning. Therefore, she doubles her chances by switching.
 
 Do the math. It's not hard, except emotionally. A lot of data science problems have that potential. 
 
