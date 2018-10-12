@@ -15,7 +15,7 @@ A good place to start is the *Monty Hall Problem.* The pre-historic *Let's Make 
 
 When the contestant made her choice, Monty did not open the curtain, but made an offer: *Give up the chance to see what was behind your curtain? Or choose between the two curtains?* And then he opened one curtain to show the goat or the microwave. *Keep your curtain or switch?*
 
-This put the contestant in an emotional race state between greed and risk aversion. *How bad would I feel if I gave up the fabulous prize for either the joke or the consolation prize.* As any data scientist would expect, two-thirds of the time the contestant suffered regret by discovering that she had selected either the goat or the microwave and lost the chance at the dream of a lifetime.
+This put the contestant in an emotional race state between greed and risk aversion. *How bad would I feel if I gave up the fabulous prize for either the joke or the consolation prize.* As any data scientist would expect, one-third of the time the contestant suffered regret by discovering that she had selected either the goat or the microwave and lost the chance at the dream of a lifetime.
 
 After a while, the popular media asked a woman, reputed to be a super-genius, for the solution, to which she replied that statistically it made sense to take the offer to give up your initial choice and switch. **No! The consensus was that there was a 50-50 chance that the contestant** *already* had the winner, which had to be behind one of the two curtains. The concensus, sadly, included many statisticians who should have known better.
 
