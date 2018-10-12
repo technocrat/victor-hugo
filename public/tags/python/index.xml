@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Locus: Richard Careaga</title>
-    <link>https://technocrat.rbind.io/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Recent content in Python on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://technocrat.rbind.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to debone linear regression output in Python</title>
-      <link>https://technocrat.rbind.io/2018/08/29/how-to-debone-linear-regression-output-in-python/</link>
+      <link>/2018/08/29/how-to-debone-linear-regression-output-in-python/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/2018/08/29/how-to-debone-linear-regression-output-in-python/</guid>
+      <guid>/2018/08/29/how-to-debone-linear-regression-output-in-python/</guid>
       <description>This post makes a trio with two most recent blogs on the same subject for R and Excel, this time in Python usking the sklearn package.
 The example given in the official documentation (https://goo.gl/GGmUKK) is somewhat sketchy and uses a different dataset than the previous two examples. Although the example dataset is different, my main purpose is to illustrate the default output.
  OLS Regression Results ============================================================================== Dep. Variable: y R-squared: 0.</description>
