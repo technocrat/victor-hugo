@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Locus: Richard Careaga</title>
-    <link>/tags/</link>
+    <link>https://technocrat.rbind.io/tags/</link>
     <description>Recent content in Tags on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://technocrat.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Algol</title>
-      <link>/tags/algol/</link>
+      <link>https://technocrat.rbind.io/tags/algol/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/algol/</guid>
+      <guid>https://technocrat.rbind.io/tags/algol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Debugging</title>
-      <link>/tags/debugging/</link>
+      <link>https://technocrat.rbind.io/tags/debugging/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/debugging/</guid>
+      <guid>https://technocrat.rbind.io/tags/debugging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>/tags/design/</link>
+      <link>https://technocrat.rbind.io/tags/design/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/design/</guid>
+      <guid>https://technocrat.rbind.io/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel</title>
-      <link>/tags/excel/</link>
+      <link>https://technocrat.rbind.io/tags/excel/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/excel/</guid>
+      <guid>https://technocrat.rbind.io/tags/excel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fortran</title>
-      <link>/tags/fortran/</link>
+      <link>https://technocrat.rbind.io/tags/fortran/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/fortran/</guid>
+      <guid>https://technocrat.rbind.io/tags/fortran/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geospatial</title>
-      <link>/tags/geospatial/</link>
+      <link>https://technocrat.rbind.io/tags/geospatial/</link>
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/geospatial/</guid>
+      <guid>https://technocrat.rbind.io/tags/geospatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>/tags/go/</link>
+      <link>https://technocrat.rbind.io/tags/go/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/go/</guid>
+      <guid>https://technocrat.rbind.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>/tags/meta/</link>
+      <link>https://technocrat.rbind.io/tags/meta/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/meta/</guid>
+      <guid>https://technocrat.rbind.io/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>https://technocrat.rbind.io/tags/python/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://technocrat.rbind.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://technocrat.rbind.io/tags/r/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://technocrat.rbind.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>/tags/statistics/</link>
+      <link>https://technocrat.rbind.io/tags/statistics/</link>
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/statistics/</guid>
+      <guid>https://technocrat.rbind.io/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>/tags/tools/</link>
+      <link>https://technocrat.rbind.io/tags/tools/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tools/</guid>
+      <guid>https://technocrat.rbind.io/tags/tools/</guid>
       <description></description>
     </item>
     
