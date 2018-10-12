@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://technocrat.rbind.io/2018/10/11/cognitive-bias-and-the-data-scientist/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/rbloggers/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://technocrat.rbind.io/quotes/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,14 +108,6 @@
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>https://technocrat.rbind.io/quotes/</loc>
-  </url>
-  
-  <url>
     <loc>https://technocrat.rbind.io/tags/algol/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -118,7 +120,7 @@
   
   <url>
     <loc>https://technocrat.rbind.io/categories/data-science/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -160,19 +162,19 @@
   
   <url>
     <loc>https://technocrat.rbind.io/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/tags/meta/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/post/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
