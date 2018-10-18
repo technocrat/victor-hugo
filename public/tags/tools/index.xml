@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Locus: Richard Careaga</title>
-    <link>/tags/tools/</link>
+    <link>https://technocrat.rbind.io/tags/tools/</link>
     <description>Recent content in Tools on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://technocrat.rbind.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cognitive styles of data science</title>
-      <link>/2018/09/10/cognitive-styles-of-data-science/</link>
+      <link>https://technocrat.rbind.io/2018/09/10/cognitive-styles-of-data-science/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/09/10/cognitive-styles-of-data-science/</guid>
+      <guid>https://technocrat.rbind.io/2018/09/10/cognitive-styles-of-data-science/</guid>
       <description>Yihui Xie of RMarkdown fame has a long, thoughtful post (https://goo.gl/WjA7t8) on a debate for and against working in various types of interactive notebooks, such as Juypter for the Python platform, IDEs like RStudio in its so-called “notebook mode” and the old school heavy code commenting, among other approaches. Although that’s the primary subject, he weaves in some astute observations of the differences among “data scientists” based on whether their perspective grows from data origins or is aimed at ultimately producing software.</description>
     </item>
     
