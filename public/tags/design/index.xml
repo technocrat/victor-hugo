@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Locus: Richard Careaga</title>
-    <link>/tags/design/</link>
+    <link>https://technocrat.rbind.io/tags/design/</link>
     <description>Recent content in Design on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://technocrat.rbind.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WaPo has some effective visualizations</title>
-      <link>/2018/09/09/wapo-has-some-effective-visualizations/</link>
+      <link>https://technocrat.rbind.io/2018/09/09/wapo-has-some-effective-visualizations/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/09/09/wapo-has-some-effective-visualizations/</guid>
+      <guid>https://technocrat.rbind.io/2018/09/09/wapo-has-some-effective-visualizations/</guid>
       <description>One of the annoyances of online newspapers such as the NYT and WaPo is that they recycle content, usually off-the-news-cycle. But this sometimes gets offset by finding something you missed the first time.
 In a recent article on six common occcupations that have changed from above-average to below average pay, the 2018-09-04 article by Andrew Van Dam and Heather Long is illustrated by some effective techniques.
 One technique is using the colors in the caption to serve as a legend to color coding in the graphic.</description>

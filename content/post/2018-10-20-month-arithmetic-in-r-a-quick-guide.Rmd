@@ -33,6 +33,7 @@ What I found is a cautionary tale of embedded assumptions, some of which are mad
 
 ![Excel's DATEDIF function](2018-10-20-ExcelMonthDate.png)
 
+
 This has to fall in the opaque category: semi-inclusive with two date pairs and non-inclusive with one.
 
 ## Python
@@ -96,6 +97,7 @@ probably because I used DATE objects instead of DATETIME objects. (The lost mont
 Just to throw in a ringer, which is again semi-inclusive.
 
 ![WolframAlphas's natural language interpretation](2018-10-20-WolframmonthDate.png)
+
 ## R
 
 Now that we've seen that the fully-inclusive calculation is rare, I have the sad duty to report that it's a problem in **R** as well.
