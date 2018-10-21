@@ -106,8 +106,8 @@
 <div id="first-excel." class="section level2">
 <h2>First, Excel.</h2>
 <div class="figure">
-<img src="/post/2018-10-20-month-arithmetic-in-r-a-quick-guide_files/2018-10-20-ExcelMonthDate.png" alt="Excel eample" />
-<p class="caption">Excel eample</p>
+<img src="/post/2018-10-20-month-arithmetic-in-r-a-quick-guide_files/2018-10-20-ExcelMonthDate.png" alt="Excel example" />
+<p class="caption">Excel example</p>
 </div>
 <p>This has to fall in the opaque category: semi-inclusive with two date pairs and non-inclusive with one.</p>
 </div>
@@ -133,13 +133,14 @@ Out[2]: 6</code></pre>
 </div>
 <div id="mysql" class="section level2">
 <h2>MySQL</h2>
-<p>MariaDB [dlf]&gt; create table temp (
--&gt; id int not null,
--&gt; start date,
--&gt; end date
--&gt; );
-Query OK, 0 rows affected (0.011 sec)</p>
-<pre><code>MariaDB [dlf]&gt;
+<pre><code>MariaDB [dlf]&gt; create table temp (
+    -&gt; id int not null,
+    -&gt; start date,
+    -&gt; end date
+    -&gt; );
+Query OK, 0 rows affected (0.011 sec)
+
+MariaDB [dlf]&gt;
 MariaDB [dlf]&gt; INSERT INTO temp (id, start, end) VALUES (1, &#39;2018-02-01&#39;, &#39;2017-09-01&#39;);
 Query OK, 1 row affected (0.002 sec)
 
@@ -152,22 +153,14 @@ MariaDB [dlf]&gt; select month(end) - month(start) as &#39;Elapsed&#39; from tem
 +---------+
 1 row in set (0.000 sec)</code></pre>
 <p>Or</p>
-<p>MariaDB [dlf]&gt; select TIMESTAMPDIFF(MONTH, start, end) as “Elapsed” from temp;
-+———+
+<pre><code>MariaDB [dlf]&gt; select TIMESTAMPDIFF(MONTH, start, end) as &quot;Elapsed&quot; from temp;
++---------+
 | Elapsed |
-+———+
-| -5 |
-+———+
-1 row in set (0.000 sec)</p>
++---------+
+|      -5 |
++---------+
+1 row in set (0.000 sec)</code></pre>
 <p>probably because I used DATE objects instead of DATETIME objects. (The lost month arises from conventions of time of day.)</p>
-</div>
-<div id="wolframalpha" class="section level2">
-<h2>WolframAlpha</h2>
-<p>Just to throw in a ringer, which is again semi-inclusive.</p>
-<div class="figure">
-<img src="2018-10-20-WolframmonthDate.png" alt="WolframAlphas’s natural language interpretation" />
-<p class="caption">WolframAlphas’s natural language interpretation</p>
-</div>
 </div>
 <div id="r" class="section level2">
 <h2>R</h2>
@@ -202,7 +195,7 @@ To appreciate the difficulty in measuring the passage of time in days, note that
 <blockquote>
 <p>A mondate is simply a real number whose fractional part represents the fraction of the month as of the end of the day. E.g., the fractional part of January 1st = 1/31; the fractional part of February 1st = 1/28 or 1/29, depending on the year. A mondate which is a whole number (i.e., no fractional part) corresponds to a month that is fully completed, whose subsequent month has not yet begun; i.e., the instant in time between one month and the next.</p>
 </blockquote>
-<p>It took a while to digest that, but it seemed promising. The key difference with other approaches is that <strong>mondate</strong> measures in <em>months</em> from the beginning of its epoch, rather than <em>seconds.</em> Put another way, relevant in light of the pending GAAP change in 2019</p>
+<p>It took a while to digest that, but it seemed promising. The key difference with other approaches is that <strong>mondate</strong> measures in <em>months</em> from the beginning of its epoch, rather than <em>seconds.</em> This may be relevant in light of the pending GAAP change in 2019 on revenue recognition.</p>
 <blockquote>
 <p><strong>I don’t care what <em>day</em> you recognized that income in April, I just want to be sure that it was <em>April</em> and not <em>May</em></strong></p>
 </blockquote>

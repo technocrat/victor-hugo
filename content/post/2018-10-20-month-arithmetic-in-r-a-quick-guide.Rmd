@@ -31,10 +31,9 @@ What I found is a cautionary tale of embedded assumptions, some of which are mad
 
 ## First, Excel.
 
-![Excel eample](/post/2018-10-20-month-arithmetic-in-r-a-quick-guide_files/2018-10-20-ExcelMonthDate.png)
+![Excel example](/post/2018-10-20-month-arithmetic-in-r-a-quick-guide_files/2018-10-20-ExcelMonthDate.png)
 
  
-
 This has to fall in the opaque category: semi-inclusive with two date pairs and non-inclusive with one.
 
 ## Python
@@ -61,7 +60,7 @@ This implementation, which was the simplest I found, but consistent with the oth
 
 ## MySQL
 
-MariaDB [dlf]> create table temp (
+    MariaDB [dlf]> create table temp (
         -> id int not null,
         -> start date,
         -> end date
@@ -83,7 +82,7 @@ MariaDB [dlf]> create table temp (
     
 Or
 
-MariaDB [dlf]> select TIMESTAMPDIFF(MONTH, start, end) as "Elapsed" from temp;
+    MariaDB [dlf]> select TIMESTAMPDIFF(MONTH, start, end) as "Elapsed" from temp;
     +---------+
     | Elapsed |
     +---------+
@@ -92,12 +91,6 @@ MariaDB [dlf]> select TIMESTAMPDIFF(MONTH, start, end) as "Elapsed" from temp;
     1 row in set (0.000 sec)
     
 probably because I used DATE objects instead of DATETIME objects. (The lost month arises from conventions of time of day.)
-
-## WolframAlpha
-
-Just to throw in a ringer, which is again semi-inclusive.
-
-![WolframAlphas's natural language interpretation](2018-10-20-WolframmonthDate.png)
 
 ## R
 
@@ -134,7 +127,7 @@ Further digging led me to **mondate**[^2] Its [documentation](https://goo.gl/Avm
 
 > A mondate is simply a real number whose fractional part represents the fraction of the month as of the end of the day. E.g., the fractional part of January 1st = 1/31; the fractional part of February 1st = 1/28 or 1/29, depending on the year. A mondate which is a whole number (i.e., no fractional part) corresponds to a month that is fully completed, whose subsequent month has not yet begun; i.e., the instant in time between one month and the next.
 
-It took a while to digest that, but it seemed promising. The key difference with other approaches is that **mondate** measures in *months* from the beginning of its epoch, rather than *seconds.* Put another way, relevant in light of the pending GAAP change in 2019
+It took a while to digest that, but it seemed promising. The key difference with other approaches is that **mondate** measures in *months* from the beginning of its epoch, rather than *seconds.* This may be relevant in light of the pending GAAP change in 2019 on revenue recognition.
 
 > **I don't care what *day* you recognized that income in April, I just want to be sure that it was *April* and not *May***
 
