@@ -31,8 +31,9 @@ What I found is a cautionary tale of embedded assumptions, some of which are mad
 
 ## First, Excel.
 
-![Excel's DATEDIF function](2018-10-20-ExcelMonthDate.png)
+![Excel eample](/post/2018-10-20-month-arithmetic-in-r-a-quick-guide_files/2018-10-20-ExcelMonthDate.png)
 
+ 
 
 This has to fall in the opaque category: semi-inclusive with two date pairs and non-inclusive with one.
 
