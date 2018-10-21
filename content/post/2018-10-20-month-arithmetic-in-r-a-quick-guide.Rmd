@@ -108,7 +108,7 @@ I started my search in the {base} package by looking at the documentation for [d
 
 ### lubridate
 
-Next, I tried the *lubridate* package [^1], and it seemed to provid a way forward. From the documentation:
+Next, I tried the *lubridate* package [^1], and it seemed to provide a way forward. From the documentation:
 
 > Adding months frustrates basic arithmetic because consecutive months have different lengths. With other elements, it is helpful for arithmetic to perform automatic roll over. For example, 12:00:00 + 61 seconds becomes 12:01:01. However, people often prefer that this behavior NOT occur with months. For example, we sometimes want January 31 + 1 month = February 28 and not March 3. %m+% performs this type of arithmetic. Date %m+% months(n) always returns a date in the nth month after Date. If the new date would usually spill over into the n + 1th month, %m+% will return the last day of the nth month (rollback()). Date %m-% months(n) always returns a date in the nth month before Date.
 

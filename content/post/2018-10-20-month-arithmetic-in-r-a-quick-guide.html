@@ -100,7 +100,7 @@ MariaDB [dlf]&gt; select month(end) - month(start) as &#39;Elapsed&#39; from tem
 </div>
 <div id="lubridate" class="section level3">
 <h3>lubridate</h3>
-<p>Next, I tried the <em>lubridate</em> package <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, and it seemed to provid a way forward. From the documentation:</p>
+<p>Next, I tried the <em>lubridate</em> package <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, and it seemed to provide a way forward. From the documentation:</p>
 <blockquote>
 <p>Adding months frustrates basic arithmetic because consecutive months have different lengths. With other elements, it is helpful for arithmetic to perform automatic roll over. For example, 12:00:00 + 61 seconds becomes 12:01:01. However, people often prefer that this behavior NOT occur with months. For example, we sometimes want January 31 + 1 month = February 28 and not March 3. %m+% performs this type of arithmetic. Date %m+% months(n) always returns a date in the nth month after Date. If the new date would usually spill over into the n + 1th month, %m+% will return the last day of the nth month (rollback()). Date %m-% months(n) always returns a date in the nth month before Date.</p>
 </blockquote>
