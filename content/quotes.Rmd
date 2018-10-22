@@ -1,13 +1,25 @@
 ---
 title: "Well said"
-date: "2018-09-30"
+date: "2018-10-21"
 ---
 
-A collection of short thoughts.
+## A collection of short thoughts
+
+> Without method and more method, we are afraid the chaos which is in us will reveal itself. And yet these methods only make things worse.
+
+Christopher Alexander, 1979, *The Timeless Way of Building*
+
+<hr>
+
+>Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+
+Goodhart, Charles (1981). "Problems of Monetary Management: The U.K. Experience". Anthony S. Courakis (ed.), Inflation, Depression, and Economic Policy in the West. Rowman & Littlefield: 111–146. [as cited by Wikipedia](https://goo.gl/PJdQqT)
+
+<hr>
 
 > ... but we struggle to provide realistic assessments of uncertainty. Also consider the problem that big data suggests a massive number of hypotheses with less protection against the danger of false positive results.
 
-"When small data beats big data" by Julian Faraway and Nicole Augustin https://goo.gl/LhAPh5
+[When small data beats big data" by Julian Faraway and Nicole Augustin](https://goo.gl/LhAPh5)
 <hr>
 > Right now my field must tackle describing a world where falling in love, going to war and filling out tax forms looks the same; it looks like typing.
 
