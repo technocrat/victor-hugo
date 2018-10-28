@@ -10,6 +10,8 @@ tags:
   - heuristics
 ---
 
+Got **n**?
+
 ***There was a 100% increase in 1-hour parking meter costs this year!***
 
 (Imagined conversation in a small town.)

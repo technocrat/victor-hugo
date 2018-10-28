@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Locus: Richard Careaga</title>
-    <link>https://technocrat.rbind.io/tags/tools/</link>
+    <link>/tags/tools/</link>
     <description>Recent content in Tools on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://technocrat.rbind.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Month arithmetic in R, a quick guide</title>
-      <link>https://technocrat.rbind.io/2018/10/20/month-arithmetic-in-r-a-quick-guide/</link>
+      <link>/2018/10/20/month-arithmetic-in-r-a-quick-guide/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/2018/10/20/month-arithmetic-in-r-a-quick-guide/</guid>
+      <guid>/2018/10/20/month-arithmetic-in-r-a-quick-guide/</guid>
       <description>Here are questions you might want to ask about months: How many more months until September 1? months_to How many more calendar months until September 1? cal_months_to How many months between this month and September 1? months_between How many more calendar months between this month and September 1? cal_months_between In how many calendar months must I wait until September 1? months_inclusive  Assume we are asking the question on February 1 of a non-leap year.</description>
     </item>
     
     <item>
       <title>Cognitive styles of data science</title>
-      <link>https://technocrat.rbind.io/2018/09/10/cognitive-styles-of-data-science/</link>
+      <link>/2018/09/10/cognitive-styles-of-data-science/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://technocrat.rbind.io/2018/09/10/cognitive-styles-of-data-science/</guid>
+      <guid>/2018/09/10/cognitive-styles-of-data-science/</guid>
       <description>Yihui Xie of RMarkdown fame has a long, thoughtful post (https://goo.gl/WjA7t8) on a debate for and against working in various types of interactive notebooks, such as Juypter for the Python platform, IDEs like RStudio in its so-called “notebook mode” and the old school heavy code commenting, among other approaches. Although that’s the primary subject, he weaves in some astute observations of the differences among “data scientists” based on whether their perspective grows from data origins or is aimed at ultimately producing software.</description>
     </item>
     
