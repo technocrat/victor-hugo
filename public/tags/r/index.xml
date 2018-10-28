@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Locus: Richard Careaga</title>
-    <link>/tags/r/</link>
+    <link>https://technocrat.rbind.io/tags/r/</link>
     <description>Recent content in R on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://technocrat.rbind.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Month arithmetic in R, a quick guide</title>
-      <link>/2018/10/20/month-arithmetic-in-r-a-quick-guide/</link>
+      <link>https://technocrat.rbind.io/2018/10/20/month-arithmetic-in-r-a-quick-guide/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/10/20/month-arithmetic-in-r-a-quick-guide/</guid>
+      <guid>https://technocrat.rbind.io/2018/10/20/month-arithmetic-in-r-a-quick-guide/</guid>
       <description>Here are questions you might want to ask about months: How many more months until September 1? months_to How many more calendar months until September 1? cal_months_to How many months between this month and September 1? months_between How many more calendar months between this month and September 1? cal_months_between In how many calendar months must I wait until September 1? months_inclusive  Assume we are asking the question on February 1 of a non-leap year.</description>
     </item>
     
     <item>
       <title>Is this the original revised data or the revised revised data</title>
-      <link>/2018/10/18/is-this-the-original-revised-data-or-the-revised-revised-data/</link>
+      <link>https://technocrat.rbind.io/2018/10/18/is-this-the-original-revised-data-or-the-revised-revised-data/</link>
       <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/10/18/is-this-the-original-revised-data-or-the-revised-revised-data/</guid>
+      <guid>https://technocrat.rbind.io/2018/10/18/is-this-the-original-revised-data-or-the-revised-revised-data/</guid>
       <description>Keeping track of the provenance of data can be a challenge, especially when drawing on published sources. Keeping a record of the origin, the date accessed, the transformations applied (e.g., converting from .xls to cvs and converting character strings such as “$1,250,321.21” to floats or date strings to date objects), subsequent changes, who handled the data object and where it can be found in a repository are all things that enhance the analyst’s own ability to reproduce results.</description>
     </item>
     
     <item>
       <title>Deboning linear regression output in Excel</title>
-      <link>/2018/09/18/deboning-linear-regression-in-excel/</link>
+      <link>https://technocrat.rbind.io/2018/09/18/deboning-linear-regression-in-excel/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/09/18/deboning-linear-regression-in-excel/</guid>
+      <guid>https://technocrat.rbind.io/2018/09/18/deboning-linear-regression-in-excel/</guid>
       <description>A while back (https://goo.gl/1W11Zu), I outlined interpretation of the output of a multiple linear regression of data on Seattle area housing prices (https://www.kaggle.com/harlfoxem/housesalesprediction?login=true), which provides a convenient way to illustrate the usual output of a multiple linear regression model output in R. This is a 21K dataset with 19 variables on housing characteristics and sales price. It’s a cruddy model, used solely to pick apart the different data presented. Today, it’s Excel’s turn.</description>
     </item>
     

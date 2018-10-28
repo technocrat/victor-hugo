@@ -3,246 +3,250 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2018/10/20/month-arithmetic-in-r-a-quick-guide/</loc>
+    <loc>https://technocrat.rbind.io/quotes/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://technocrat.rbind.io/2018/10/20/month-arithmetic-in-r-a-quick-guide/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/10/18/is-this-the-original-revised-data-or-the-revised-revised-data/</loc>
+    <loc>https://technocrat.rbind.io/2018/10/18/is-this-the-original-revised-data-or-the-revised-revised-data/</loc>
     <lastmod>2018-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/10/17/data-science-in-the-board-room-and-c-suite/</loc>
+    <loc>https://technocrat.rbind.io/2018/10/17/data-science-in-the-board-room-and-c-suite/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/10/11/cognitive-bias-and-the-data-scientist/</loc>
+    <loc>https://technocrat.rbind.io/2018/10/11/cognitive-bias-and-the-data-scientist/</loc>
     <lastmod>2018-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</loc>
+    <loc>https://technocrat.rbind.io/2018/09/30/ordinary-least-squares-linear-regression-walkthrough-for-beginners/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/rbloggers/</loc>
+    <loc>https://technocrat.rbind.io/rbloggers/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/quotes/</loc>
-    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2018/09/18/deboning-linear-regression-in-excel/</loc>
+    <loc>https://technocrat.rbind.io/2018/09/18/deboning-linear-regression-in-excel/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/09/10/cognitive-styles-of-data-science/</loc>
+    <loc>https://technocrat.rbind.io/2018/09/10/cognitive-styles-of-data-science/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/09/09/wapo-has-some-effective-visualizations/</loc>
+    <loc>https://technocrat.rbind.io/2018/09/09/wapo-has-some-effective-visualizations/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</loc>
+    <loc>https://technocrat.rbind.io/2018/09/04/deboning-simple-linear-regression-output-in-tensorflow/</loc>
     <lastmod>2018-09-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/09/02/go-not-considered-harmful/</loc>
+    <loc>https://technocrat.rbind.io/2018/09/02/go-not-considered-harmful/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/31/the-unbearable-lightness-of-coloring-maps/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/31/the-unbearable-lightness-of-coloring-maps/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/30/ai-and-the-oracle-at-delphi/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/30/ai-and-the-oracle-at-delphi/</loc>
     <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/29/how-to-debone-linear-regression-output-in-python/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/29/how-to-debone-linear-regression-output-in-python/</loc>
     <lastmod>2018-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/27/how-to-debone-the-output-of-a-linear-regression-model/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/27/how-to-debone-the-output-of-a-linear-regression-model/</loc>
     <lastmod>2018-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/14/the-plural-of-data-science-is-not-formulae/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/14/the-plural-of-data-science-is-not-formulae/</loc>
     <lastmod>2018-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/12/analytic-data-scientists-know-when-to-fold-em/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/12/analytic-data-scientists-know-when-to-fold-em/</loc>
     <lastmod>2018-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/09/nathan-yau-on-the-challenges-of-thematic-maps/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://technocrat.rbind.io/about/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/assignments/</loc>
+    <loc>https://technocrat.rbind.io/assignments/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2018/08/04/newtonian-data-science/</loc>
+    <loc>https://technocrat.rbind.io/2018/08/04/newtonian-data-science/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/</loc>
+    <loc>https://technocrat.rbind.io/portfolio/</loc>
     <lastmod>2018-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/algol/</loc>
+    <loc>https://technocrat.rbind.io/1/01/01/</loc>
+  </url>
+  
+  <url>
+    <loc>https://technocrat.rbind.io/tags/algol/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/business/</loc>
+    <loc>https://technocrat.rbind.io/tags/business/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://technocrat.rbind.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/data-science/</loc>
+    <loc>https://technocrat.rbind.io/categories/data-science/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/debugging/</loc>
+    <loc>https://technocrat.rbind.io/tags/debugging/</loc>
     <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/design/</loc>
+    <loc>https://technocrat.rbind.io/tags/design/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/excel/</loc>
+    <loc>https://technocrat.rbind.io/tags/excel/</loc>
     <lastmod>2018-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/fintech/</loc>
+    <loc>https://technocrat.rbind.io/tags/fintech/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/fortran/</loc>
+    <loc>https://technocrat.rbind.io/tags/fortran/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/geospatial/</loc>
+    <loc>https://technocrat.rbind.io/tags/geospatial/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/go/</loc>
+    <loc>https://technocrat.rbind.io/tags/go/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <loc>https://technocrat.rbind.io/</loc>
+    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/meta/</loc>
+    <loc>https://technocrat.rbind.io/tags/meta/</loc>
     <lastmod>2018-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://technocrat.rbind.io/post/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/programming/</loc>
+    <loc>https://technocrat.rbind.io/categories/programming/</loc>
     <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>https://technocrat.rbind.io/tags/python/</loc>
     <lastmod>2018-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>https://technocrat.rbind.io/tags/r/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/statistics/</loc>
+    <loc>https://technocrat.rbind.io/tags/statistics/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://technocrat.rbind.io/tags/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/tools/</loc>
+    <loc>https://technocrat.rbind.io/tags/tools/</loc>
     <lastmod>2018-10-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/visualization/</loc>
+    <loc>https://technocrat.rbind.io/categories/visualization/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
