@@ -50,8 +50,8 @@ baseURL = "https://technocrat.rbind.io/"
 
 [[menu.main]]
 
-    name = "Assignments"
-    url = "/assignments/"
+    name = "Employment"
+    url = "/employment/"
     weight = 7
 
 [[menu.main]]
