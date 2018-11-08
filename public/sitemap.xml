@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://technocrat.rbind.io/2018/11/08/commercial-data-science-a-parable-of-downsides-of-crisp-deployment/</loc>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/2018/11/07/r-and-haskell-meant-for-each-other/</loc>
     <lastmod>2018-11-07T00:00:00+00:00</lastmod>
   </url>
@@ -151,7 +156,7 @@
   
   <url>
     <loc>https://technocrat.rbind.io/categories/data-science/</loc>
-    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,8 +215,14 @@
   </url>
   
   <url>
+    <loc>https://technocrat.rbind.io/tags/innovation/</loc>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/</loc>
-    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,7 +234,7 @@
   
   <url>
     <loc>https://technocrat.rbind.io/post/</loc>
-    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -235,13 +246,19 @@
   
   <url>
     <loc>https://technocrat.rbind.io/tags/python/</loc>
-    <lastmod>2018-08-29T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/tags/r/</loc>
-    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://technocrat.rbind.io/tags/rd/</loc>
+    <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
