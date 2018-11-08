@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.49" />
+
+
+<title>runs for your life - Locus: Richard Careaga</title>
+<meta property="og:title" content="runs for your life - Locus: Richard Careaga">
+
+
+
+  
+
+
+
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/73384/6600392/css/fonts.css" />
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/technocrat">GitHub</a></li>
+    
+    <li><a href="https://technocrat.github.io/_book/">Portfolio</a></li>
+    
+    <li><a href="/quotes/">Quotes</a></li>
+    
+    <li><a href="https://linkedin.com/in/richardcareaga">LinkedIn</a></li>
+    
+    <li><a href="https://twitter.com/technocrat">Twitter</a></li>
+    
+    <li><a href="/employment/">Employment</a></li>
+    
+    <li><a href="https://www.r-bloggers.com">RBloggers</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">runs for your life</h1>
+
+
+
+    
+    <span class="article-date">2018/10/30</span>
+    
+
+    
+    <br>
+      
+    
+
+    <div class="article-content">
+      <p>I came across an <a href="https://goo.gl/pAEez7">interesting question</a> related to parsing data for runs of consequtive values.</p>
+<blockquote>
+<p>This is more of a “what technology/library would you use for this?” question than anything else.</p>
+</blockquote>
+<blockquote>
+<p>I have categorical time series data, and need to match cases in these time series to known patterns. For example, State A, followed by State B within six months, followed by multiple periods of State A, followed by an optional period of State B, followed by State C.</p>
+</blockquote>
+<blockquote>
+<p>It’s quite hard to interrogate e.g. an SQL database or pandas dataframe for sequences of rows that match a pattern like this. How you’d do this “in theory” is build a pattern-matching finite state machine, but I didn’t know a relevant library for one. Then I realised I’ve been using pattern-matching finite state machines for years in the form of regular expressions.</p>
+</blockquote>
+<blockquote>
+<p>So, what I’ve been doing is converting my time series to strings, defining my pattern as a regex, and matching them that way. It works extraordinarily well. In spite of this, it feels hacky. Surely there should be some proper way to do this.</p>
+</blockquote>
+<blockquote>
+<p>Is there? What technology/data structure/library would let me define finite automata for time series and match them based on that definition?</p>
+</blockquote>
+<p>My initial reaction was that this could be best done by creating a matrix with state x month number, but I came to a more elegant approach with a non-CRAN package <em>S4Vectors</em>.</p>
+<p>After some head-scratching, I realized that this was a runs problems:</p>
+<ul>
+<li>Are there runs of 6 or more elements of a specified value?</li>
+<li>If so, are they followed by one specific different element</li>
+<li>And, before the start of start of another run of 6 or more of the original value, is there an element of a third value, with or without the occurance of the second value. (It’s not clear if it matters whether one or more or fewer than 6 values of the first element matter)</li>
+</ul>
+<p>But <em>runs{base}</em> loses the source indices of the input data. Googlemojo led me to the <em>S4Vectors</em> functions in the lonely <em>biocLite</em> package, which is not on CRAN, where it should be. To get it</p>
+<p><a href="https://goo.gl/AwWY9f" class="uri">https://goo.gl/AwWY9f</a> S$Vectors documentation
+Install with</p>
+<pre><code>source(&quot;https://bioconductor.org/biocLite.R&quot;)
+biocLite(&quot;S4Vectors&quot;)</code></pre>
+<p>Once installed, there is an unexplored wealth of S4-style replacements for many {base} functions, including <em>rle</em> to calculate runs length.</p>
+<p>Now <em>rle</em> is fine, but I haven’t found a way to tie back to the indices of the source file to find <em>where</em> the runs begin and end, which the OP needed</p>
+<p>To date, I’ve solved a big part of the problem:</p>
+<pre><code>library(S4Vectors)
+set.seed(1)
+event &lt;- sample(1:3,365*3,replace=TRUE)
+runs &lt;- Rle(event)                        # note initial cap vs. rle{base}
+sum(runs@lengths &gt;= 6 &amp; runs@values == 1) # @ operator for S4 class
+[1] 2                                     # at least one run of 6 or more type 1
+paired &lt;- Pairs(event,runs)              # first = type, and second = runs
+                                          # S4 mojo on renaming slots rusty
+paired                                    # big advantage is preservation of source index
+Pairs object with 1095 pairs and 0 metadata columns:
+             first second
+         &lt;integer&gt;  &lt;Rle&gt;                 # Rle is an S4 object with @values and @lengths
+     [1]         1      1                 # we just need first to keep the original index
+     [2]         2      2
+     [3]         2      2
+     [4]         3      3
+     [5]         1      1
+     ...       ...    ...
+  [1091]         2      2
+  [1092]         3      3
+  [1093]         1      1
+  [1094]         1      1
+  [1095]         3      3
+  
+  # test the initial condition of a 1 followed by a 2 within 6 periods
+  initial_1 &lt;- which(1 %in% paired@first)[1]
+  #[1] 1                                      # the sequence begins with a one
+  initial_2 &lt;- which(2 %in% paired@first[initial_1:(initial_1 + 6)])
+  #[1] 1                                      # it is immediately followed by a 2
+  # find the index buried in the S4 object for runs of 6 or more
+  runs_of_ones_two &lt;- which(paired@second@lengths &gt; 5 &amp; paired@second@values == 1)
+  #[1] 196 600
+  tests_to_be_made &lt;- length(runs_of_ones_twos)
+  # check to see what follows; I think you&#39;d need a for loop oveer tests_to_be_made
+  which(3 %in% runs_of_ones_two[1:(runs_of_ones_two +1 )]
+  #[0]                          # passed
+  which(3 %in% runs_of_ones_two[2:(runs_of_ones_two +1 )]
+  #[0]                          # passed
+  
+  [1] 3                         # the criteria for this run are unsatisfied
+                                # run of six 1s followed by zero 2s
+  # test the second run of 1s
+  paired@second@values[601]
+  [1] 2                         # we now have a run followed by a 2
+                                # we know there will be no more runs of 1 greater than 5
+                                # searching for multiple periods of 1
+  sum(which(paired@second@values[603:length(paired@second@values)] == 1) &gt; 0) &gt; 1
+  [1] TRUE
+  # where is the second additional occurrence of 1?
+  which(paired@second@values[601:length(paired@second@values)] == 1)[2]
+  [1] 5
+  # add (manually, at this point) to the index for the second run to the index for
+  # the first, run, the occcurrence of 2 to get the start point for the search of 3
+  sum(which(paired@second@values[605:length(paired@second@values)] == 3) &gt; 0)
+  # yes, there are many
+  [1] 40
+  # so the second run of 5 or more 1s was followed by a 2, 2 or more additional runs of 1s, all of
+  # which were less than 5, followed by 40 runs of one or more length of 3s, which satisfies the pattern.
+  </code></pre>
+<p>It remains, now, to match that hit with the month index. We just need the starting index of the second run.</p>
+<pre><code>type1 &lt;- which(paired@first == 1) # 350 month indices are coded 1</code></pre>
+<p>The <em>paired</em> object is the same length as the source data, indexed, contains the type data and an object, here called second, that contains the run length for each type, which is shorter, only 723 entries. The compression, of course, is due to mapping the type to their respective runs and would only equal the number of months if all runs were limited to 1.</p>
+<p>The remaining problem, then, is to find a way of inspecting each of the 350 candidate months to see if it contains the run of 8. But because we already know the index</p>
+<pre><code>which(paired@second@lengths &gt; 5 &amp; paired@second@values == 1)
+[1] 196 600</code></pre>
+<p>and we found that 196 failed, we only need to test the possible months against that single object, not all 723.</p>
+<p>biocLite(pkgs=c(“Biobase”, “IRanges”, “AnnotationDbi”),<br />
+suppressUpdates=FALSE,
+suppressAutoUpdate=FALSE,
+siteRepos=character(),
+ask=TRUE, …)</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
