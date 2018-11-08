@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://technocrat.rbind.io/2018/11/07/r-and-haskell-meant-for-each-other/</loc>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/employment/</loc>
     <lastmod>2018-11-06T00:00:00+00:00</lastmod>
   </url>
@@ -128,10 +133,6 @@
   </url>
   
   <url>
-    <loc>https://technocrat.rbind.io/1/01/01/</loc>
-  </url>
-  
-  <url>
     <loc>https://technocrat.rbind.io/tags/algol/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -150,7 +151,7 @@
   
   <url>
     <loc>https://technocrat.rbind.io/categories/data-science/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -197,6 +198,12 @@
   </url>
   
   <url>
+    <loc>https://technocrat.rbind.io/tags/haskell/</loc>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://technocrat.rbind.io/tags/heuristics/</loc>
     <lastmod>2018-10-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -204,7 +211,7 @@
   
   <url>
     <loc>https://technocrat.rbind.io/</loc>
-    <lastmod>2018-11-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -216,13 +223,13 @@
   
   <url>
     <loc>https://technocrat.rbind.io/post/</loc>
-    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://technocrat.rbind.io/categories/programming/</loc>
-    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -234,7 +241,7 @@
   
   <url>
     <loc>https://technocrat.rbind.io/tags/r/</loc>
-    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

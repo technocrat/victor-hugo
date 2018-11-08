@@ -6,10 +6,20 @@
     <description>Recent content in R on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://technocrat.rbind.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R and Haskell, meant for each other?</title>
+      <link>https://technocrat.rbind.io/2018/11/07/r-and-haskell-meant-for-each-other/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://technocrat.rbind.io/2018/11/07/r-and-haskell-meant-for-each-other/</guid>
+      <description>R has a notoriously steep learning curve. I once moaned that help() needed it’s own help(help), which it does, but did nothing to help me understand the paradigm of function signatures. And why were control loops like for so frowned upon. All sorts of great functionality, but how do you, like program it.
+As I progressed in my ability to overcome my underlying lack of grok, I took a dip in Haskell, and discovered the concept of a functional language, essentially everything is \(f(x) = y\) as opposed to an imperative/procedural language – first do this, then do that, then perform some operation on both of them, and then, and then … .</description>
+    </item>
     
     <item>
       <title>Month arithmetic in R, a quick guide</title>
