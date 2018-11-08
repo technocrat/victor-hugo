@@ -11,7 +11,7 @@ tags:
   - R&D
   - Innovation
 ---
-*Narcocorridos* are a Mexican musical genre celebrating the drug trafficking culture. As you can read in [wiwk](https://goo.gl/Wi1Fjj), it has a surprisingly long history and is popular despite official attempts to suppress it.
+*Narcocorridos* are a Mexican musical genre celebrating the drug trafficking culture. As you can read in [wiki](https://goo.gl/Wi1Fjj), it has a surprisingly long history and is popular despite official attempts to suppress it.
 
 Stay with me, there's a parable here about **R**, **Python**, **DevOps**, **Bias Toward Action** and leaving change on the table, in two senses.
 
