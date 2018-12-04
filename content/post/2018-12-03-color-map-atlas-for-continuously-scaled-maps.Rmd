@@ -473,7 +473,7 @@ This approach, and other do-it-yourself color palette selection approaches can b
 
 This set of palettes plays well with `ggplot` and should answer most needs.
 
-![RColorBrewer](pini/figures/RColorBrewer.png)
+![RColorBrewer](https://s3-us-west-2.amazonaws.com/tuva/RColorBrewer.png)
 
 The three sections are for sequential (*i.e.,* continuous), divergent (a neutral color in the center progressing toward more intense colors in both direction) or qualitative, for discrete data but coercible into continuous data.
 
