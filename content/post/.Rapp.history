@@ -1,0 +1,813 @@
+dim(mnist$train$images)
+set.seed(123)#
+index <- sample(nrow(mnist$train$images), 10000)#
+x <- mnist$train$images[index,]#
+y <- factor(mnist$train$labels[index])#
+#
+index <- sample(nrow(mnist$train$images), 1000)#
+x_test <- mnist$train$images[index,]#
+y_test <- factor(mnist$train$labels[index])
+ls()
+sds <- colSds(x)#
+qplot(sds, bins = 256, color = I("black"))
+library(matrixStats)
+sds <- colSds(x)#
+qplot(sds, bins = 256, color = I("black"))
+nzv <- nearZeroVar(x)#
+image(matrix(1:784 %in% nzv, 28, 28))
+col_index <- setdiff(1:ncol(x), nzv)#
+length(col_index)
+colnames(x) <- 1:ncol(mnist$train$images)#
+colnames(x_test) <- colnames(mnist$train$images)
+control <- trainControl(method = "cv", number = 10, p = .9)#
+train_knn <- train(x[,col_index], y, #
+                   method = "knn", #
+                   tuneGrid = data.frame(k = c(3,5,7)),#
+                   trControl = control)#
+ggplot(train_knn)
+library(Rborist)
+install.packages("Rborist")
+library(randomForest)
+q()
+library(dslabs)#
+library(tidyverse)#
+library(matrixStats)#
+library(Rborist)#
+library(randomForest)#
+#
+mnist <- read_mnist()#
+set.seed(0)#
+if(!exists("mnist")) mnist <- read_mnist()#
+#
+ind <- which(mnist$train$labels %in% c(2,7)) %>% sample(500)#
+x <- mnist$train$images[ind,]#
+y <- mnist$train$labels[ind]
+y[1:3]#
+x_1 <- x[1,]#
+x_2 <- x[2,]#
+x_3 <- x[3,]
+sqrt(sum((x_1-x_2)^2))#
+sqrt(sum((x_1-x_3)^2))#
+sqrt(sum((x_2-x_3)^2))
+sqrt(crossprod(x_1-x_2))#
+sqrt(crossprod(x_1-x_3))#
+sqrt(crossprod(x_2-x_3))
+d <- dist(x)#
+class(d)
+d
+as.matrix(d)[1:3,1:3]
+image(as.matrix(d))
+image(as.matrix(d)[order(y), order(y)])
+d <- dist(t(x))#
+dim(as.matrix(d))#
+#
+d_492 <- as.matrix(d)[492,]
+image(1:28, 1:28, matrix(d_492, 28, 28))
+data("tissue_gene_expression")
+dim(tissue_gene_expression$x)
+table(tissue_gene_expression$y)
+names(tissue_gene_expression)
+d <- dist(tissue_gene_expression$x)
+d
+d <- dist(tissue_gene_expression)
+d <- dist(tissue_gene_expression$x, distance='maximum')
+class(d)
+dim(as.matrix(d))
+y[1:2]
+ls()
+q()
+library(dslabs)#
+library(tidyverse)#
+library(matrixStats)
+data("tissue_gene_expression")
+dim(tissue_gene_expression$x)
+table(tissue_gene_expression$y)
+y[1:2]
+y <- tissue_gene_expression$y
+y[1:2]
+x_1 <- x[1,]#
+x_2 <- x[2,]
+x <- tissue_gene_expression$x
+x_1 <- x[1,]#
+x_2 <- x[2,]
+sqrt(crossprod(x_1-x_2))
+y[39:40]
+x_2 < x[39,]
+y[1:2]
+sqrt(crossprod(x_1-x_2))
+q()
+library(dslabs)#
+library(tidyverse)#
+library(matrixStats)#
+data("tissue_gene_expression")#
+dim(tissue_gene_expression$x)#
+table(tissue_gene_expression$y)#
+x <- tissue_gene_expression$x#
+y <- tissue_gene_expression$y#
+#
+# Colon#
+y[1:2]#
+x_1 <- x[1,]#
+x_2 <- x[2,]
+sqrt(crossprod(x_1-x_2))
+# colon#
+y[39:40]#
+x_2 <- x[39,]#
+x_3 <- x[40,]#
+sqrt(crossprod(x_2-x_3))
+# endometrium#
+y[73:74]#
+x_4 <- x[73,]#
+x_5 <- x[74,]#
+sqrt(crossprod(x_4-x_5))
+image(as.matrix(d))
+d <- dist(x)#
+image(as.matrix(d))
+q()
+#NearestNeighbor.md#
+library(dslabs)#
+library(tidyverse)#
+library(matrixStats)#
+library(Rborist)#
+library(randomForest)#
+set.seed(123)#
+index <- sample(nrow(mnist$train$images), 10000)#
+x <- mnist$train$images[index,]#
+y <- factor(mnist$train$labels[index])
+mnist <- read_mnist()
+set.seed(123)#
+index <- sample(nrow(mnist$train$images), 10000)#
+x <- mnist$train$images[index,]#
+y <- factor(mnist$train$labels[index])
+data(mnist_27)#
+fit_glm <- glm(y ~ x_1 + x_2, data = mnist_27$train, family = "binomial")#
+p_hat_logistic <- prdict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test)$overall[1]
+p_hat_logistic <- predict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test)$overall[1]
+library(caret)
+p_hat_logistic <- predict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test)$overall[1]
+q()
+library(dslabs)#
+library(tidyverse)#
+library(matrixStats)#
+library(Rborist)#
+library(randomForest)#
+library(caret)#
+-------------------------------------------------------------------------------- #
+# Redo logistic regression#
+data(mnist_27)#
+fit_glm <- glm(y ~ x_1 + x_2, data = mnist_27$train, family = "binomial")#
+p_hat_logistic <- predict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test)$overall[1]
+str(y_hat_logistic)
+str(mnist_27$test)
+str(mnist_27)
+fit_glm <- glm(y ~ x_1 + x_2, data=mnist_27$train, family="binomial")#
+p_hat_logistic <- predict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test$y)$overall[1]#
+data(mnist_27)
+fit_glm <- glm(y ~ x_1 + x_2, data=mnist_27$train, family="binomial")#
+p_hat_logistic <- predict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test$y)$overall[1]#
+data(mnist_27) %>% tidy()
+library(tidy)
+mnist_27$test %>% ggplot(aes(x_1, x_2, color = y)) + geom_point()
+knn_fit <- knn3(y ~ ., data = mnist_27$train)
+x <- as.matrix(mnist_27$train[,2:3])#
+y <- mnist_27$train$y#
+knn_fit <- knn3(x, y)
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 5)
+y_hat_knn <- predict(knn_fit, mnist_27$test, type = "class")#
+confusionMatrix(data = y_hat_knn, reference = mnist_27$test$y)$overall["Accuracy"]
+y_hat_knn <- predict(knn_fit, mnist_27$train, type = "class")#
+confusionMatrix(data = y_hat_knn, reference = mnist_27$train$y)$overall["Accuracy"]
+y_hat_knn <- predict(knn_fit, mnist_27$test, type = "class")#
+confusionMatrix(data = y_hat_knn, reference = mnist_27$test$y)$overall["Accuracy"]
+knn_fit_1 <- knn3(y ~ ., data = mnist_27$train, k = 1)#
+y_hat_knn_1 <- predict(knn_fit_1, mnist_27$train, type = "class")#
+confusionMatrix(data=y_hat_knn_1, reference=mnist_27$train$y)$overall["Accuracy"]
+y_hat_knn_1 <- predict(knn_fit_1, mnist_27$test, type = "class")#
+confusionMatrix(data=y_hat_knn_1, reference=mnist_27$test$y)$overall["Accuracy"]#
+#> Accuracy #
+#>    0.735
+knn_fit_401 <- knn3(y ~ ., data = mnist_27$train, k = 401)#
+y_hat_knn_401 <- predict(knn_fit_401, mnist_27$test, type = "class")#
+confusionMatrix(data=y_hat_knn_401, reference=mnist_27$test$y)$overall["Accuracy"]
+accuracy <- map_df(ks, function(k){#
+  fit <- knn3(y ~ ., data = mnist_27$train, k = k)#
+  y_hat <- predict(fit, mnist_27$train, type = "class")#
+  cm_train <- confusionMatrix(data = y_hat, reference = mnist_27$train$y)#
+  train_error <- cm_train$overall["Accuracy"]#
+  y_hat <- predict(fit, mnist_27$test, type = "class")#
+  cm_test <- confusionMatrix(data = y_hat, reference = mnist_27$test$y)#
+  test_error <- cm_test$overall["Accuracy"]#
+  list(train = train_error, test = test_error)#
+})
+ks <- seq(3, 251, 2)#
+accuracy <- map_df(ks, function(k){#
+  fit <- knn3(y ~ ., data = mnist_27$train, k = k)#
+  y_hat <- predict(fit, mnist_27$train, type = "class")#
+  cm_train <- confusionMatrix(data = y_hat, reference = mnist_27$train$y)#
+  train_error <- cm_train$overall["Accuracy"]#
+  y_hat <- predict(fit, mnist_27$test, type = "class")#
+  cm_test <- confusionMatrix(data = y_hat, reference = mnist_27$test$y)#
+  test_error <- cm_test$overall["Accuracy"]#
+  list(train = train_error, test = test_error)#
+})
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot_cond_prob(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+library(caret)
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot_cond_prob(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+library(purrr)
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot_cond_prob(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+devtools::install_github("STATWORX/helfRlein")
+library(gam)
+install.packages("gam")
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot_cond_prob(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+library(gam)
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot_cond_prob(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+library(gridExtra)
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot_cond_prob(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+help(gam)
+plot_cond_prob(predict(train_loess, mnist_27$true_p, type = "prob")[,2])
+library(sos)
+install.packages("sos")
+library(sos)
+findFn("plot_cond_prob")
+library(utils)
+RSiteSearch("plot_cond_prob")
+cdplotpredict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")
+cdplot(predict(knn_fit, newdata = mnist_27$true_p)
+)
+library(ElemStatLearn)
+install.packages("ElemStatLearn")
+library(ElemStatLearn)
+help(ElemStatLearn)
+??ElemStatLearn
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+plot(predict(train_loess, mnist_27$true_p, type = "prob")[,2])
+help(ggplot)
+autoplot(predict(knn_fit, newdata = mnist_27$true_p)[,2])
+foo <- predict(knn_fit, newdata = mnist_27$true_p)[,2])
+foo <- predict(knn_fit, newdata = mnist_27$true_p)[,2]
+str(foo)
+install.packages(Cprob)
+install.packages("Cprob")
+library(Cprob)
+help(Cprob)
+??Cprob
+install.packages("condprob")#
+require(condprob)
+library(condprob)
+install_github("jhollist/condprob")
+devtools::install_github("jhollist/condprob")
+ds_theme_set()
+help(ds_theme_set)
+ds_theme_set()#
+qplot(hp, mpg, data=mtcars, color=am, facets=gear~cyl, #
+main="Scatterplots of MPG vs. Horsepower", #
+xlab="Horsepower", ylab="Miles per Gallon")
+plot_cond_prob <- function(p_hat=NULL){#
+  tmp <- mnist_27$true_p#
+  if(!is.null(p_hat)){#
+    tmp <- mutate(tmp, p=p_hat)#
+  }#
+  tmp %>% ggplot(aes(x_1, x_2, z=p, fill=p)) +#
+  geom_raster(show.legend = FALSE) +#
+  scale_fill_gradientn(colors=c("#F8766D","white","#00BFC4")) +#
+  stat_contour(breaks=c(0.5),color="black")#
+}
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+q()
+#NearestNeighbor.md#
+library(dslabs)#
+library(tidyverse)#
+library(matrixStats)#
+library(Rborist)#
+library(randomForest)#
+library(caret)#
+library(gam)#
+library(gridExtra)#
+-------------------------------------------------------------------------------- #
+# Redo logistic regression#
+#
+fit_glm <- glm(y ~ x_1 + x_2, data=mnist_27$train, family="binomial")#
+p_hat_logistic <- predict(fit_glm, mnist_27$test)#
+y_hat_logistic <- factor(ifelse(p_hat_logistic > 0.5, 7, 2))#
+confusionMatrix(data = y_hat_logistic, reference = mnist_27$test$y)$overall[1]#
+# Accuracy  0.76 #
+data("mnist_27")#
+mnist_27$test %>% ggplot(aes(x_1, x_2, color = y)) + geom_point()#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 5) # Accuracy 0.815 #
+#
+y_hat_knn <- predict(knn_fit, mnist_27$train, type = "class")#
+confusionMatrix(data = y_hat_knn, reference = mnist_27$train$y)$overall["Accuracy"]#
+# Accuracy 0.8825 #
+#
+y_hat_knn <- predict(knn_fit, mnist_27$test, type = "class")#
+confusionMatrix(data = y_hat_knn, reference = mnist_27$test$y)$overall["Accuracy"]#
+#
+# Overtrainng#
+#
+knn_fit_1 <- knn3(y ~ ., data = mnist_27$train, k = 1)#
+y_hat_knn_1 <- predict(knn_fit_1, mnist_27$train, type = "class")#
+confusionMatrix(data=y_hat_knn_1, reference=mnist_27$train$y)$overall["Accuracy"]#
+# Accuracy 0.995#
+#
+y_hat_knn_1 <- predict(knn_fit_1, mnist_27$test, type = "class")#
+confusionMatrix(data=y_hat_knn_1, reference=mnist_27$test$y)$overall["Accuracy"]#
+#> Accuracy #
+#>    0.735#
+#
+# Oversmoothing#
+#
+knn_fit_401 <- knn3(y ~ ., data = mnist_27$train, k = 401)#
+y_hat_knn_401 <- predict(knn_fit_401, mnist_27$test, type = "class")#
+confusionMatrix(data=y_hat_knn_401, reference=mnist_27$test$y)$overall["Accuracy"]#
+#
+# Picking k#
+# From rmd source#
+plot_cond_prob <- function(p_hat=NULL){#
+  tmp <- mnist_27$true_p#
+  if(!is.null(p_hat)){#
+    tmp <- mutate(tmp, p=p_hat)#
+  }#
+  tmp %>% ggplot(aes(x_1, x_2, z=p, fill=p)) +#
+  geom_raster(show.legend = FALSE) +#
+  scale_fill_gradientn(colors=c("#F8766D","white","#00BFC4")) +#
+  stat_contour(breaks=c(0.5),color="black")#
+}#
+#
+ks <- seq(3, 251, 2)#
+accuracy <- map_df(ks, function(k){#
+  fit <- knn3(y ~ ., data = mnist_27$train, k = k)#
+  y_hat <- predict(fit, mnist_27$train, type = "class")#
+  cm_train <- confusionMatrix(data = y_hat, reference = mnist_27$train$y)#
+  train_error <- cm_train$overall["Accuracy"]#
+  y_hat <- predict(fit, mnist_27$test, type = "class")#
+  cm_test <- confusionMatrix(data = y_hat, reference = mnist_27$test$y)#
+  test_error <- cm_test$overall["Accuracy"]#
+  list(train = train_error, test = test_error)#
+})#
+#
+# Compare#
+#
+# From rmd source#
+plot_cond_prob <- function(p_hat=NULL){#
+  tmp <- mnist_27$true_p#
+  if(!is.null(p_hat)){#
+    tmp <- mutate(tmp, p=p_hat)#
+  }#
+  tmp %>% ggplot(aes(x_1, x_2, z=p, fill=p)) +#
+  geom_raster(show.legend = FALSE) +#
+  scale_fill_gradientn(colors=c("#F8766D","white","#00BFC4")) +#
+  stat_contour(breaks=c(0.5),color="black")#
+}#
+p1 <- plot_cond_prob() + ggtitle("True conditional probability")#
+#
+knn_fit <- knn3(y ~ ., data = mnist_27$train, k = 41)#
+p2 <- plot(predict(knn_fit, newdata = mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-41 estimate")#
+grid.arrange(p1, p2, nrow=1)
+p2 <- plot_cond_prob(predict(knn_fit, mnist_27$true_p)[,2]) +#
+  ggtitle("kNN-5 estimate")#
+#
+grid.arrange(p1, p2, nrow=1)
+library(HistData)#
+#
+train_set %>% #
+  filter(round(height)==66) %>%#
+  summarize(mean(sex=="Female"))#
+#
+glm_fit <- train_set %>% #
+  mutate(y = as.numeric(sex == "Female")) %>%#
+  glm(y ~ height, data=., family = "binomial")#
+#
+p_hat_logit <- predict(glm_fit, newdata = test_set, type = "response")#
+#
+y_hat_logit <- ifelse(p_hat_logit > 0.5, "Female", "Male") %>% factor#
+confusionMatrix(y_hat_logit, test_set$sex)
+train_set %>% #
+  filter(round(height)==66) %>%#
+  summarize(mean(sex=="Female"))
+galton_heights <- GaltonFamilies %>%#
+  filter(childNum == 1 & gender == "Female") %>%#
+  select(father, childHeight) %>%#
+  rename(daughter = childHeight)#
+#
+y <- galton_heights$daughter#
+test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+#
+train_set <- galton_heights %>% slice(-test_index)#
+test_set <- galton_heights %>% slice(test_index)#
+#
+train_set %>% #
+  filter(round(height)==66) %>%#
+  summarize(mean(sex=="Female"))
+y
+galton_heights
+library(HistData)#
+#
+galton_heights <- GaltonFamilies %>%#
+  filter(childNum == 1 & gender == "male") %>%#
+  select(father, childHeight) %>%#
+  rename(son = childHeight)#
+#
+y <- galton_heights$son#
+test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+#
+train_set <- galton_heights %>% slice(-test_index)#
+test_set <- galton_heights %>% slice(test_index)#
+#
+fit <- lm(son ~ father, data = train_set)#
+#
+y_hat <- fit$coef[1] + fit$coef[2]*test_set$father#
+mean((y_hat - test_set$son)^2)#
+#
+y_hat <- predict(fit, test_set)#
+#
+y_hat <- predict(fit, test_set)#
+mean((y_hat - test_set$son)^2)#
+#
+train_set %>% #
+  filter(round(height)==66) %>%#
+  summarize(mean(sex=="Female"))
+data(height)
+data(heights)
+head(heights)
+what is wrong on this code#
+#
+index <- createDataPartition(y, times=1, p=0.5, list = FALSE)#
+#
+train_set <- heights[index,]#
+#
+test_set <- heights[-index,]#
+#
+accuracy <- map_df(ks,function(k){#
+#
+knn_fit <- knn3( y~height, data= train_set\(sex, k=ks)#
+#
+y_hat <- predict(knn_fit, test_set, type="class")#
+#
+F_val<-F_meas(data=y_hat, reference=factor(test_set\)sex))#
+#
+}) accuracy %>% ggplot(aes(ks,F_val)) geom_line()
+head(train_set)
+knn_fit <- knn3( y~height, data= train_set$(sex, k=ks)
+knn_fit <- knn3( y~height, data= train_set, sex, k=ks)
+library(tidyverse)#
+library(RSelenium)#
+library(rvest)#
+library(progress)
+install.packages("RSelenium")
+q()
+devtools::install_github("hadley/lineprof")
+library(pryr)
+library(tidyverse)#
+library(RSelenium)#
+library(rvest)#
+library(progress)#
+#
+get_box_score <- function(..., progress = TRUE) {#
+  if (progress) {#
+    pb <- progress::progress_bar$new(format = "get_box_score() [:bar] :percent eta: :eta", clear = FALSE, total = nrow(...), show_after = 0) #
+    pb$tick(0)}#
+  driver <- rsDriver(verbose = FALSE)#
+  on.exit(driver$client$close())#
+  on.exit(driver$server$stop())#
+  .get_box_score <- function(url, league, season, ...) {#
+    seq(2, 5, by = 0.001) %>%#
+      sample(1) %>%#
+      Sys.sleep()#
+    driver$client$navigate(url)#
+    Sys.sleep(3)#
+    page <- driver$client$getPageSource() %>%#
+      purrr::pluck(1) %>%#
+      read_html()#
+    league_alternative_name <- case_when(league == "OHL" ~ "ohl", #
+                                         league == "WHL" ~ "whl", #
+                                         league == "QMJHL" ~ "lhjmq")#
+    teams <- page %>% #
+      html_nodes(".gamecentre-playbyplay-event--goal") %>%#
+      {tibble(team = as(., "character"))} %>%#
+      mutate(team = str_split(team, str_c('<div class="gamecentre-playbyplay-event team-border--', league_alternative_name, '-', sep = ""), simplify = TRUE, n = 2)[,2]) %>%#
+      mutate(team = str_split(team, 'gamecentre-playbyplay-event--goal', simplify = TRUE, n = 2)[,1]) %>%#
+      mutate(team = toupper(team))#
+    goal_info <- page %>%#
+      html_nodes(".gamecentre-playbyplay-event--goal") %>%#
+      html_text() %>%#
+      as_tibble() %>%#
+      set_names("messy_data") %>%#
+      mutate(period = str_split(messy_data, " ", simplify = TRUE, n = 2)[,1]) %>%#
+      mutate(period = str_split(period, "Goal", simplify = TRUE, n = 2)[,2]) %>%#
+      mutate(period = str_replace_all(period, c("ST" = "", "ND" = "", "RD" = ""))) %>%#
+      mutate(time = str_split(messy_data, " ", simplify = TRUE, n = 2)[,2]) %>%#
+      mutate(time = str_split(time, "\\#", simplify = TRUE, n = 2)[,1]) %>%#
+      mutate(goal = str_split(messy_data, " ", simplify = TRUE, n = 3)[,3]) %>%#
+      mutate(goal = str_split(goal, "\\(", simplify = TRUE, n = 2)[,1]) %>%#
+      mutate(assists = str_split(messy_data, "Assists\\:", simplify = TRUE, n = 2)[,2]) %>%#
+      mutate(assists = str_split(assists, "\\+/-", simplify = TRUE, n = 2)[,1]) %>%#
+      mutate(game_strength = case_when(str_detect(messy_data, "Short Handed") & str_detect(messy_data, "Empty Net") ~ "SH EN",#
+                                       str_detect(messy_data, "Power Play") & str_detect(messy_data, "Empty Net") ~ "PP EN",#
+                                       str_detect(messy_data, "Short Handed") & str_detect(messy_data, "Penalty Shot") ~ "SH PS",#
+                                       str_detect(messy_data, "Power Play") & str_detect(messy_data, "Penalty Shot") ~ "PP PS",#
+                                       str_detect(messy_data, "Empty Net") ~ "EN",#
+                                       str_detect(messy_data, "Short Handed") ~ "SH",#
+                                       str_detect(messy_data, "Power Play") ~ "PP",#
+                                       str_detect(messy_data, "Penalty Shot") ~ "PS",#
+                                       TRUE ~ "EV")) %>%#
+      mutate(assists = str_replace_all(assists, c("Power Play" = "", #
+                                                  "Short Handed" = "", #
+                                                  "Empty Net" = "", #
+                                                  "Penalty Shot" = "",#
+                                                  "Game Winning" = "", #
+                                                  "Game Tying" = "",#
+                                                  "Insurance Goal" = ""))) %>%#
+      mutate(primary_assist = str_split(assists, ",", simplify = TRUE, n = 2)[,1]) %>%#
+      mutate(primary_assist = str_replace_all(primary_assist, "\\#[0-9]{1,2}", "")) %>%#
+      mutate(secondary_assist = str_split(assists, ",", simplify = TRUE, n = 2)[,2]) %>%#
+      mutate(secondary_assist = str_replace_all(secondary_assist, "\\#[0-9]{1,2}", ""))#
+    box_score_data <- teams %>%#
+      bind_cols(goal_info) %>%#
+      mutate(season = season) %>%#
+      mutate(league = league) %>%#
+      mutate(game_url = url) %>%#
+      select(time, period, game_strength, team, goal, primary_assist, secondary_assist, season, league, game_url) %>%#
+      mutate_all(str_squish) %>%#
+      mutate_all(~na_if(., ""))#
+    if (progress) {pb$tick()}#
+    return(box_score_data)#
+  }#
+  persistently_get_box_score <- elite::persistently(.get_box_score, max_attempts = 10, wait_seconds = 0.0001)#
+  try_get_box_score <- function(url, league, season, ...) {#
+    tryCatch(persistently_get_box_score(url, league, season, ...), #
+             error = function(e) {#
+               print(e) #
+               print(url)#
+               data_frame()},#
+             warning = function(w) {#
+               print(w) #
+               print(url)#
+               data_frame()})#
+  }#
+  all_box_score_data <- pmap_dfr(..., try_get_box_score)#
+  return(all_box_score_data)#
+}
+object_size(get_box_score)
+mem_used()
+q()
+setwd("/Users/rc/projects/victor-hugo/content/post")#
+suppressPackageStartupMessages(library(tidyverse))#
+suppressPackageStartupMessages(library(tidycensus))#
+suppressPackageStartupMessages(library(munsell))#
+suppressPackageStartupMessages(library(scales))#
+suppressPackageStartupMessages(library(sf))#
+#
+library(knitr)#
+library(kableExtra)#
+library(munsell)#
+library(RColorBrewer)#
+library(scales) # needed for label = comma#
+library(sf)#
+library(tidycensus)#
+library(tidyverse)#
+#
+states_pop <- get_estimates("state", product = "population", geometry = TRUE, shift_geo = TRUE) %>% filter(variable == "POP") %>% filter(GEOID != 11) %>% mutate(geoid = as.integer(GEOID)) %>% select(GEOID, NAME, geoid, value) %>% mutate(POP_TOT = value) %>% select(-value)#
+#
+# obtain state names, identifier and postal abbreviations#
+converter <-  read.csv("https://gist.githubusercontent.com/technocrat/93470bf9abead06ef926/raw/f652f8171374e7808455f42167f5480ea15f7f4e/state_fips_postal.csv", header = FALSE, stringsAsFactors = FALSE)#
+converter <-  rename(converter, NAME = V1, geoid = V2, id = V3)#
+states_key <- as.tibble(converter) %>% filter(id != 'DC') #
+#
+plain_theme = theme(axis.text=element_blank()) + #
+    theme(panel.background = element_blank(), #
+        panel.grid = element_blank(), #
+        axis.ticks = element_blank())#
+#
+no_ylab = ylab("") #
+no_xlab = xlab("")#
+#
+# obtain 50_state ACS 2017 population estimates for white, non-Hispanic#
+# requires manual selection on ASC site to limit estimate to that ethnicity#
+states_ethnic <- get_acs(geography = "state", variables = "B01001H_001") %>% filter(GEOID != 11 & GEOID != 72) %>% select(GEOID, NAME, estimate) %>% mutate(WHITE = estimate) %>% select(-estimate)#
+# bring in states tibble#
+states_white <- inner_join(states_pop, states_ethnic, by = "GEOID") %>% rename(NAME = NAME.x) %>% select(-NAME.y)#
+# add postal abbeviations#
+states_white <- inner_join(states_white, states_key, by = "NAME") %>% rename(geoid = geoid.x) %>% select(-geoid.y)#
+# get locations for state postal code placement#
+states_centroid_matrix <- st_coordinates(st_centroid(states_pop$geometry))#
+states_centroid <- as.tibble(states_centroid_matrix) %>% transmute(clong = X, clat = Y) #
+# construct a key#
+geoid <- as.tibble(states_pop$geoid)#
+colnames(geoid) <- "geoid"#
+# combine to tibble#
+states_centroid <- as.tibble(cbind(geoid, states_centroid))#
+# bring into states tibble and create columns for position adjustment#
+states <- inner_join(states_white, states_centroid, by = "geoid") %>% mutate(offset_clong = 0, offset_clat = 0)#
+#
+# create blank base map with state id codes#
+blank_map <- ggplot(states) +#
+  geom_sf(color = "gray", size = 0.2, fill = NA) +#
+  coord_sf() + #
+  plain_theme +#
+  theme(panel.grid.major = element_line(colour = "white"))#
+#
+# trial and error; units are meters 10000 m is approximately 6 miles#
+states$offset_clong[9] <-  - 30000  #LA#
+states$offset_clong[24] <- + 80000  #FL#
+states$offset_clat[27] <-  + 10000  #MD#
+states$offset_clong[27] <- - 20000  #MD#
+states$offset_clat[38] <-  - 70000  #MI#
+states$offset_clong[38] <- + 100000 #MI#
+states$offset_clat[44] <-  - 75000  #RI#
+states$offset_clong[44] <- + 25000  #RI#
+#
+basemap <- blank_map + geom_text(data = states, aes(x=clong + offset_clong, clat + offset_clat, label = id), size = 2.5) + no_xlab + no_ylab#
+#
+q2_2018_gdp <- as.tibble(read_csv("pini/data/Q2_2018_GDP.csv"))#
+econ <- inner_join(q2_2018_gdp, states, by = "NAME") %>% mutate(GDP = Q22018_GDP) %>% mutate(capita = GDP/(POP_TOT/1e5)) %>% select(NAME, id, GDP, capita, clong, clat, offset_clong, offset_clat, geometry)#
+#
+econ_source <- '"Source: Bureau of Economic Analysis, Gross Domestic Product By State, 2nd Quarter 2018 https://goo.gl/Jc6XyK"'#
+#
+gdp_table <- econ %>% select(NAME,GDP)#
+gdp_pop <- inner_join(gdp_table, states, by = "NAME") %>% select(NAME, id, GDP, clong, clat, offset_clong, offset_clat, geometry)#
+pop_map <- ggplot(states) + geom_sf(aes(fill = POP_TOT)) +   #
+coord_sf() +#
+plain_theme +#
+theme(panel.grid.major = element_line(colour = "white")) +#
+ggtitle("ASC 2017 Estimate of Population") +#
+  guides(fill = guide_legend(title = "Population"))  + geom_text(data = states, aes(x=clong + offset_clong , clat + offset_clat, label = id), size = 2.5) +  geom_text(data = states, aes(x=clong + offset_clong , clat + offset_clat, label = id), size = 2.5) + no_ylab + no_xlab#
+#
+econ_pop <- ggplot(gdp_pop) + geom_sf(aes(fill = GDP)) +  #
+coord_sf() +#
+plain_theme +#
+theme(panel.grid.major = element_line(colour = "white")) +#
+ggtitle("Second Quarter 2018 State GDP") +#
+  guides(fill = guide_legend(title = "GDP"))  + geom_text(data = states, aes(x=clong + offset_clong , clat + offset_clat, label = id), size = 2.5) +  geom_text(data = states, aes(x=clong + offset_clong , clat + offset_clat, label = id), size = 2.5) + no_ylab + no_xlab#
+#
+econ_map <- ggplot(econ) + geom_sf(aes(fill = capita)) +  #
+coord_sf() +#
+plain_theme +#
+theme(panel.grid.major = element_line(colour = "white")) +#
+ggtitle("Second Quarter 2018 State GDP per 100,000 Population") +#
+  guides(fill = guide_legend(title = "GDP/100,000"))  + geom_text(data = states, aes(x=clong + offset_clong , clat + offset_clat, label = id), size = 2.5) +  geom_text(data = states, aes(x=clong + offset_clong , clat + offset_clat, label = id), size = 2.5) + no_ylab + no_xlab#
+#
+# default with alpha default#
+Alpha_default <- scale_alpha_continuous(range = c(0.1, 1))#
+Alpha_75 <- scale_alpha_continuous(range = c(0.1, 0.75))#
+Alpha_50 <- scale_alpha_continuous(range = c(0.1, 0.50))#
+Alpha_25 <- scale_alpha_continuous(range = c(0.1, 0.25))#
+Alpha_10 <- scale_alpha_continuous(range = c(0.1, 0.10))#
+Alpha_5 <-  scale_alpha_continuous(range = c(0.05, 0.10))#
+#
+magma    <- scale_fill_viridis_c(option="magma")#
+inferno  <- scale_fill_viridis_c(option="inferno")#
+plasma   <- scale_fill_viridis_c(option="plasma")#
+viridis  <- scale_fill_viridis_c(option="viridis")#
+cividis  <- scale_fill_viridis_c(option="cividis")#
+#
+munsell_brown <- scale_fill_gradient(low = "#FBF7F6", high =  "#A97263", space = "Lab", na.value = "grey50", guide = "colourbar", aesthetics = "fill")#
+#
+# RColorBrewer#
+#
+spectralNeg1 <- 'scale_fill_distiller(type = "seq", palette = "Spectral", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill") +'
+pop_map
+econ_map
+econ_map + Alpha10
+econ_map + Alpha5
+econ_map + Alpha25
+econ_map + Alpha_5
+econ_map + Alpha_25
+econ_map + Alpha_50
+econ_map + Alpha_5
+rcb
+RColorBrewer::display.brewer.all()
+help(ggplot)
+spectralPos1 <- 'scale_fill_distiller(type = "seq", palette = "Spectral", direction = 1, labels = comma,  guide = "colourbar", aesthetics = "fill") +'
+ann <- annotate("label", label = "Alpha Default", x = 1440000, y = 1440000, size = 6, colour = "Black")
+econ_map + spectralNeg1 + ann
+econ_map + spectralNeg1
+spectralNeg1
+econ_map + magma
+econ_map + spectralNeg1
+econ_map + scale_fill_distiller(type = "seq", palette = "Spectral", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+sectralNeg1 <- "scale_fill_distiller(type = 'seq', palette = 'Spectral', direction = -1, labels = comma,  guide = 'colourbar', aesthetics = 'fill')"
+econ_map +spectralNeg1
+spectralNeg1
+magma
+help(ggplot)
+econ_map + scale_colour_distiller(type = 'seq', palette = 'Spectral', direction = -1, labels = comma,  guide = 'colourbar', aesthetics = 'fill')
+sectralNeg1 <- "scale_colour_distiller(type = 'seq', palette = 'Spectral', direction = -1, labels = comma,  guide = 'colourbar', aesthetics = 'fill')"
+econ_map + sectralNeg1
+econ_map + sectralNeg1
+econ_map + munsell_brown
+spectralNeg1 <- 'scale_fill_distiller(type = "seq", palette = "Spectral", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")'
+econ_map + spectralNeg1
+class(magma)
+class(spectraNeg1)
+class(spectralNeg1)
+spectralNeg1 <- scale_fill_distiller(type = "seq", palette = "Spectral", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+econ_map + spectralNeg1
+spectralPos1 <- scale_fill_distiller(type = "seq", palette = "Spectral", direction = 1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+econ_map + spectralPos1
+boxed <- annotate("label", label = pal_label, x = 1440000, y = 1440000, size = 6, colour = "Black")
+pal_label <- ""
+boxed <- annotate("label", label = pal_label, x = 1440000, y = 1440000, size = 6, colour = "Black")
+econ_map + magma + boxed
+??boxed
+box_lab <- annotate("label", label = pal_label, x = 1440000, y = 1440000, size = 6, colour = "Black")
+YlOrRdNeg1     <- scale_fill_distiller(type = "seq", palette = "YlOrRd", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+pal_lab <- "YlOrRdNeg1"
+econ_map + YlOrRdNeg1 + box_lab
+box_lab <- function(pal) {#
+  annotate("label", label = pal, x = 1440000, y = 1440000, size = 6, colour = "Black")#
+}
+pal_lab <- "YlOrRdNeg1" + econ_map + YlOrRdNeg1 + box_lab(pal_lab)
+pal_lab <- "YlOrRdNeg1"
+econ_map + YlOrRdNeg1 + box_lab(pal_lab)
+YlOrRdNeg1     <- scale_fill_distiller(type = "seq", palette = "YlOrRd", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill") #
+#
+YlOrRdPos1     <- scale_fill_distiller(type = "seq", palette = "YlOrRd", direction = 1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+pal_lab(YlOrRdNeg1)
+pal_lab <- YlOrRdNeg1
+econ_map + YlOrRdNeg1 + box_lab
+econ_map + YlOrRdNeg1 + box_lab
+box_lab
+econ_map + YlOrRdNeg1 + box_lab(pal_lab)
+econ_map + YlOrRdNeg1 + box_lab(pal_lab)
+econ_map + magma + boxed
+econ_map + magma + box_lab(pal_lab)
+pal_lab
+pal_lab <- ""
+pal_lab <- "YlOrRdNeg1"
+econ_map + YlOrRdNeg1 + box_lab(pal_lab)
+pal_lab <- "YlOrRdPos1"
+econ_map + YlOrRdPos1 + box_lab(pal_lab)
+RColorBrewer::display.brewer.all()
+YlOrBlNeg1    <- scale_fill_distiller(type = "seq", palette = "YlOrBl", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+YlOrBrNeg1    <- scale_fill_distiller(type = "seq", palette = "YlOrBl", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+YlOrBrNeg1    <- scale_fill_distiller(type = "seq", palette = "YlOrBr", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+pal_lab <- "YlOrBrNeg1"
+econ_map + YlOrBrNeg1 + box_lab(pal_lab)
+YlOrBrPos1    <- scale_fill_distiller(type = "seq", palette = "YlOrBr", direction = 1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+pal_lab <- "YlOrBrPos1"
+econ_map + YlOrBrPos1 + box_lab(pal_lab)
+RColorBrewer::display.brewer.all()
+YlGrBuNeg1    <- scale_fill_distiller(type = "seq", palette = "YlGrBu", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill") #
+#
+YlGrBuPos1    <- scale_fill_distiller(type = "seq", palette = "YlGrBu", direction = 1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+YlGnBuNeg1    <- scale_fill_distiller(type = "seq", palette = "YlGnBu", direction = -1, labels = comma,  guide = "colourbar", aesthetics = "fill") #
+#
+YlGnBuPos1    <- scale_fill_distiller(type = "seq", palette = "YlGnBu", direction = 1, labels = comma,  guide = "colourbar", aesthetics = "fill")
+pal_lab <- "YlGnBuNeg1"
+econ_map + YlGnBuNeg1 + box_lab
+econ_map + YlGnBuNeg1 + box_lab(pal_lab)
+pal_lab <- "YlGnBuPos1"
+econ_map + YlGnBuPos1 + box_lab(pal_lab)
+q()

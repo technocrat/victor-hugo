@@ -1,0 +1,572 @@
+length(first)
+length(second)
+length(third)
+tail(first)
+tail(second)
+tail(third)
+first <- test_set <- dat[test_index, ]#
+second <- train_set <- dat[-test_index, ]
+length(first)
+head(first)
+nrow(first)
+first_test <- test_set <- dat[test_index, ]#
+first_train <- train_set <- dat[-test_index, ]#
+second_test <- test_set <- dat[test_index, ]#
+second_train <- train_set <- dat[-test_index, ]#
+third_test <- test_set <- dat[test_index, ]#
+third_train <- train_set <- dat[-test_index, ]
+length(first_train)
+nrow(first_train)
+nrow(second_train)
+nrow(third_train)
+tail(first_train)
+tail(second_train)
+tail(third_train)
+set.seed(2)#
+#
+first_test <- test_set <- dat[test_index, ]#
+first_train <- train_set <- dat[-test_index, ]#
+second_test <- test_set <- dat[test_index, ]#
+second_train <- train_set <- dat[-test_index, ]#
+third_test <- test_set <- dat[test_index, ]#
+third_train <- train_set <- dat[-test_index, ]#
+length(first_train)#
+length(second_train)#
+length(third_train)#
+tail(first_train)#
+tail(second_train)#
+tail(third_train)
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+	data.frame() %>% setNames(c("x", "y"))
+dat
+tail(dat)
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+	data.frame() %>% setNames(c("x", "y"))
+tail(dat)
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+	data.frame() %>% setNames(c("x", "y"))
+tail(dat)
+set.seed(1)
+x        y#
+95  63.43862 66.70131#
+96  64.69349 66.79519#
+97  74.75470 73.42642#
+98  70.20264 67.83708#
+99  68.09599 65.52566#
+100 68.55777 66.31851#
+> dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++ 	data.frame() %>% setNames(c("x", "y"))#
+> tail(dat)#
+           x        y#
+95  73.04000 72.69071#
+96  67.56580 68.59428#
+97  71.56589 68.60947#
+98  61.85914 65.24227#
+99  65.09464 65.78413#
+100 65.84386 68.59957#
+> dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++ 	data.frame() %>% setNames(c("x", "y"))#
+> tail(dat)#
+           x        y#
+95  69.72125 70.31967#
+96  71.40056 66.46416#
+97  64.55772 66.91570#
+98  66.79841 66.33962#
+99  70.83351 66.14448#
+100 70.97415 67.76510
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++     data.frame() %>% setNames(c("x", "y"))
+q()
+library(dslabs)#
+library(caret)#
+library(magrittr) # missing from instructions#
+set.seed(1)#
+# Without the seed, dat is different each time it is defined#
+Sigma <- 9*matrix(c(1.0, 0.5, 0.5, 1.0), 2, 2)#
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++     data.frame() %>% setNames(c("x", "y"))
+q()
+library(dslabs)#
+library(caret)#
+library(magrittr) # missing from instructions#
+#set.seed(1)#
+n <- 100#
+Sigma <- 9*matrix(c(1.0, 0.5, 0.5, 1.0), 2, 2)#
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))#
+tail(dat)#
+tail(dat)#
+tail(dat)
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))#
+tail(dat)
+set.seed(1)#
+n <- 100#
+Sigma <- 9*matrix(c(1.0, 0.5, 0.5, 1.0), 2, 2)
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++     data.frame() %>% setNames(c("x", "y"))#
+tail(dat)#
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++     data.frame() %>% setNames(c("x", "y"))#
+tail(dat)#
+dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
++     data.frame() %>% setNames(c("x", "y"))#
+tail(dat)
+first <- test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+second <- test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+third <- test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)
+q()
+library(dslabs)#
+library(caret)#
+library(tidyverse)#
+#
+set.seed(1)#
+n <- 100#
+Sigma <- 9*matrix(c(1.0, 0.5, 0.5, 1.0), 2, 2)#
+first <- dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))#
+second <- dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))#
+third <- dat <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))
+tail(first)#
+tail(second)#
+tail(third)
+set.seed(1)#
+Sigma <- 9*matrix(c(1.0, 0.5, 0.5, 1.0), 2, 2)#
+first <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))#
+second <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))#
+third <- MASS::mvrnorm(n = 100, c(69, 69), Sigma) %>%#
+    data.frame() %>% setNames(c("x", "y"))
+tail(first)
+tail(second)
+tail(third)
+class(third)
+set.seed(1)#
+y <- dat$y#
+x <- dat$x#
+test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)
+class(test_index)
+test_index
+tail(test_index)
+test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)
+tail(test_index)
+first <- train_set <- dat[-test_index, ]#
+second <- train_set <- dat[-test_index, ]#
+third <- train_set <- dat[-test_index, ]
+tail(first)#
+tail(second)#
+tail(third)
+first <- train_set <- dat[-test_index, ]#
+second <- train_set <- dat[-test_index, ]#
+third <- train_set <- dat[-test_index, ]#
+tail(first)#
+tail(second)#
+tail(third)
+fit <- lm(y ~ x, data = train_set)#
+summary(fit)
+fit <- lm(test_set$y ~ train_set$x)
+test_set <- dat[test_index, ]
+fit <- lm(test_set$y ~ train_set$x)
+fit <- lm(y ~ x, data = train_set)#
+summary(fit)
+summary.lm$sigma
+summary.lm(fit$sigma)
+summary.lm(fit)
+summary.lm(fit)$sigma
+first <- test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+second <- test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+third <- test_index <- createDataPartition(y, times = 1, p = 0.5, list = FALSE)#
+#
+tail(first)
+tail(second)
+tail(third)
+library(acs)
+citation(package = "acs")
+update.packages()
+library(anytime)
+help(anytime)
+q()
+help(help)
+update.packages()
+q()
+install.packages("sigr")
+ls()
+q()
+install.packages("ISOweek")
+update.packages()
+quit()
+library(tidyverse)
+proto <- seq(11,20)
+proto <- as.tibble(seq(11,20))
+proto
+df <- proto %>% transmute(a = value, b = value, c = value, g = value, h = value)
+df
+library(usethis)
+help(usethis)
+library(acs)
+help(asc.lookup)
+help(acs)
+states.by.race
+acs.lookup(endyear=2012, span=1, keyword=c("Female", "GED"))
+acs.lookup(endyear=2017, span=1, keyword=c("Female", "GED"))
+acs.lookup(endyear=2016, span=1, keyword=c("Female", "GED"))
+acs.lookup(endyear=2015, span=1, keyword=c("state", "race"))
+acs.lookup(endyear=2015, span=1, keyword=c("state", "race"), case.sensitive=F)
+acs.lookup(endyear=2017, span=1)
+q()
+library("RMariaDB")
+help(RMariaDB)
+library(DBI)#
+# Connect to my-db as defined in ~/.my.cnf#
+con <- dbConnect(RMariaDB::MariaDB(), group = "my-db")#
+#
+dbListTables(con)#
+dbWriteTable(con, "mtcars", mtcars)#
+dbListTables(con)#
+#
+dbListFields(con, "mtcars")#
+dbReadTable(con, "mtcars")#
+#
+# You can fetch all results:#
+res <- dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4")#
+dbFetch(res)#
+dbClearResult(res)#
+#
+# Or a chunk at a time#
+res <- dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4")#
+while(!dbHasCompleted(res)){#
+  chunk <- dbFetch(res, n = 5)#
+  print(nrow(chunk))#
+}#
+# Clear the result#
+dbClearResult(res)#
+#
+# Disconnect from the database#
+dbDisconnect(con)
+library(DBI)#
+library(RMariaDB)#
+#
+con <- dbConnect(RMariaDB::MariaDB(), host = "localhost", user = "root", password = "")
+dbListTables(con)#
+dbWriteTable(con, "mtcars", mtcars)#
+dbListTables(con)#
+#
+dbListFields(con, "mtcars")#
+dbReadTable(con, "mtcars")#
+#
+# You can fetch all results:#
+res <- dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4")#
+dbFetch(res)#
+dbClearResult(res)
+help(con)
+??con
+con <- dbConnect(RMariaDB::MariaDB("pini"), host = "localhost", user = "root", password = "")
+??dbConnect
+library(DBI)#
+library(RMariaDB)#
+#
+con <- dbConnect(RMariaDB::MariaDB(), host = "localhost", user = "root", password = "")
+help(MariaDB)
+con <- dbConnect(RMariaDB::MariaDB(dbName = "pini"), host = "localhost", user = "root", password = "")
+load("/Users/rc/Desktop/8schools.rds")
+q()
+suppressPackageStartupMessages(library(tidyverse))#
+suppressPackageStartupMessages(library(lubridate))#
+suppressPackageStartupMessages(library(hrbrthemes))#
+library(broom)#
+library(classInt)#
+library(knitr)#
+library(kableExtra)#
+library(hrbrthemes)#
+library(maptools)#
+library(mapproj)#
+library(rgdal)#
+library(rgeos)#
+library(RColorBrewer)#
+library(sp)#
+library(tidyverse)#
+#
+dsn <- "post/pini/sources/cb_2017_us_state_5m/" #
+layer <- "cb_2017_us_state_5m"#
+states <- readOGR(dsn, layer)#
+us_aea <-  spTransform(states, CRS("+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs"))#
+us_aea@data$id = rownames(us_aea@data)#
+alaska <-  us_aea[us_aea$STATEFP=="02",]#
+us_aea <-  spTransform(states, CRS("+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs"))#
+us_aea@data$id = rownames(us_aea@data)#
+alaska <-  us_aea[us_aea$STATEFP=="02",]#
+alaska <-  elide(alaska, rotate=-50)#
+alaska <-  elide(alaska, scale=max(apply(bbox(alaska), 1, diff)) / 2.3)#
+alaska <-  elide(alaska, shift=c(-2100000, -2500000))#
+proj4string(alaska) = proj4string(us_aea)#
+hawaii <-  us_aea[us_aea$STATEFP=="15",]#
+hawaii <-  elide(hawaii, rotate=-35)#
+hawaii <-  elide(hawaii, shift=c(5400000, -1400000))#
+proj4string(hawaii) <-  proj4string(us_aea)#
+us_aea <-  us_aea[!us_aea$STATEFP %in% c("02", "15"),]#
+us_aea <-  rbind(us_aea, alaska, hawaii)#
+rhode_island <-  us_aea[us_aea$STATEFP=="44",]#
+rhode_island <-  elide(rhode_island, shift=c(0,-200000))#
+proj4string(rhode_island) = proj4string(us_aea)#
+delaware <-  us_aea[us_aea$STATEFP=="10",]#
+delaware <-  elide(delaware, shift=c(200000,0))#
+proj4string(delaware) <-  proj4string(us_aea)#
+us_aea = spTransform(states, CRS("+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs"))#
+us_aea@data$id = rownames(us_aea@data)#
+alaska = us_aea[us_aea$STATEFP=="02",]#
+alaska = elide(alaska, rotate=-50)#
+alaska = elide(alaska, scale=max(apply(bbox(alaska), 1, diff)) / 2.3)#
+alaska = elide(alaska, shift=c(-2100000, -2500000))#
+proj4string(alaska) = proj4string(us_aea)#
+hawaii = us_aea[us_aea$STATEFP=="15",]#
+hawaii = elide(hawaii, rotate=-35)#
+hawaii = elide(hawaii, shift=c(5400000, -1400000))#
+proj4string(hawaii) = proj4string(us_aea)#
+us_aea = us_aea[!us_aea$STATEFP %in% c("02", "15"),]#
+us_aea = rbind(us_aea, alaska, hawaii)#
+rhode_island = us_aea[us_aea$STATEFP=="44",]#
+rhode_island = elide(rhode_island, shift=c(0,-200000))#
+proj4string(rhode_island) = proj4string(us_aea)#
+delaware = us_aea[us_aea$STATEFP=="10",]#
+delaware = elide(delaware, shift=c(200000,0))#
+proj4string(delaware) = proj4string(us_aea)#
+us_aea = us_aea[!us_aea$STATEFP %in% c("44", "10"),]#
+us_aea = rbind(us_aea, delaware, rhode_island)#
+centroids = data.frame(us_aea$STUSPS, coordinates(us_aea))#
+names(centroids) = c("id", "clong", "clat")#
+centroids = remove.territories(centroids)#
+us50 <- fortify(us_aea, region="STUSPS")#
+us50 = remove.territories(us50)#
+# rm(dsn,layer, hawaii, delaware, alaska, rhode_island)  to save memory#
+#save(us50_17_metric, file = "post/pini/data/____________________")#
+#future analyses will be able to avoid recreating by load("post/pini/data/us50_17_metric.Rda")#
+fips_codes <- as.tibble(read.csv("post/pini/data/state_postal.csv", header = TRUE, stringsAsFactors = FALSE))#
+basemap <- tidy(states, "STUSPS")
+q()
+dsn <- "post/pini/sources/cb_2017_us_state_5m/" #
+layer <- "cb_2017_us_state_5m"#
+states <- readOGR(dsn, layer)#
+us_aea <-  spTransform(states, CRS("+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs"))#
+us_aea@data$id = rownames(us_aea@data)#
+alaska <-  us_aea[us_aea$STATEFP=="02",]#
+us_aea <-  spTransform(states, CRS("+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs"))#
+us_aea@data$id = rownames(us_aea@data)#
+alaska <-  us_aea[us_aea$STATEFP=="02",]#
+alaska <-  elide(alaska, rotate=-50)#
+alaska <-  elide(alaska, scale=max(apply(bbox(alaska), 1, diff)) / 2.3)#
+alaska <-  elide(alaska, shift=c(-2100000, -2500000))#
+proj4string(alaska) = proj4string(us_aea)#
+hawaii <-  us_aea[us_aea$STATEFP=="15",]#
+hawaii <-  elide(hawaii, rotate=-35)#
+hawaii <-  elide(hawaii, shift=c(5400000, -1400000))#
+proj4string(hawaii) <-  proj4string(us_aea)#
+us_aea <-  us_aea[!us_aea$STATEFP %in% c("02", "15"),]#
+us_aea <-  rbind(us_aea, alaska, hawaii)#
+rhode_island <-  us_aea[us_aea$STATEFP=="44",]#
+rhode_island <-  elide(rhode_island, shift=c(0,-200000))#
+proj4string(rhode_island) = proj4string(us_aea)#
+delaware <-  us_aea[us_aea$STATEFP=="10",]#
+delaware <-  elide(delaware, shift=c(200000,0))#
+proj4string(delaware) <-  proj4string(us_aea)#
+us_aea = rbind(us_aea, alaska, hawaii)#
+centroids = data.frame(us_aea$STUSPS, coordinates(us_aea))#
+names(centroids) = c("id", "clong", "clat")
+q()
+suppressPackageStartupMessages(library(tidyverse))#
+suppressPackageStartupMessages(library(lubridate))#
+suppressPackageStartupMessages(library(hrbrthemes))#
+library(broom)#
+library(classInt)#
+library(knitr)#
+library(kableExtra)#
+library(hrbrthemes)#
+library(maptools)#
+library(mapproj)#
+library(rgdal)#
+library(rgeos)#
+library(RColorBrewer)#
+library(sf)#
+library(tidyverse)#
+library(usmaps)#
+#
+knitr::knit_hooks$set(inline = function(x) { if(!is.numeric(x)){ x }else{ prettyNum(round(x,2), big.mark=",") } })#
+#
+# functions#
+dex <- function(s,t) { # calculate state and white leverage ratios#
+      1/(s/t)#
+}#
+intervals = function(.df, ...){#
+	argList = match.call(expand.dots=FALSE)$... #
+	for(i in 1:length(argList)){#
+		colName <- argList[[i]]#
+		series_colName = eval(substitute(colName), envir=.df, enclos=parent.frame())#
+		min <- min(series_colName)#
+		max <- max(series_colName)#
+		diff <- max - min#
+		std <- sd(series_colName)#
+		equal.interval <- seq(min, max, by = diff/6)#
+		quantile.interval <- quantile(series_colName, probs = seq(0, 1, by = 1/6))#
+		std.interval <- c(seq(min, max, by = std), max)#
+		natural.interval <- classIntervals(series_colName, n = 6, style = 'jenks')$brks#
+		.df$equal <- cut(series_colName, breaks = equal.interval, include.lowest = TRUE)#
+		names(.df)[names(.df)=="equal"] <- paste(colName,".","equal", sep = '')#
+		.df$quantile <- cut(series_colName, breaks = quantile.interval, include.lowest = TRUE)#
+		names(.df)[names(.df)=="quantile"] <- paste(colName,".","quantile", sep = '')#
+		.df$std <- cut(series_colName, breaks = std.interval, include.lowest =  TRUE)#
+		names(.df)[names(.df)=="std"] <- paste(colName,".","std", sep = '')#
+		.df$natural <- cut(series_colName, breaks = natural.interval, include.lowest = TRUE)#
+		names(.df)[names(.df)=="natural"] <- paste(colName,".","natural", sep = '')#
+	}#
+	return(.df)#
+}#
+#
+plain_theme = theme(axis.text=element_blank()) + #
+    theme(panel.background = element_blank(), #
+        panel.grid = element_blank(), #
+        axis.ticks = element_blank())#
+#
+no_ylab = ylab("") #
+no_xlab = xlab("")
+library(usmap)
+us17_pop_est <- as.tibble(read.csv("pini/sources/ACS_17_1YR_CP05/ACS_17_1YR_B02001.csv", stringsAsFactors = FALSE))#
+us_pop_tot <- sum(us17_pop_est$Population)
+setwd
+setwd("/Users/rc/projects/victor-hugo/content")
+us17_pop_est <- as.tibble(read.csv("pini/sources/ACS_17_1YR_CP05/ACS_17_1YR_B02001.csv", stringsAsFactors = FALSE))#
+us_pop_tot <- sum(us17_pop_est$Population)
+getwd()
+us17_pop_est <- as.tibble(read.csv("post/pini/sources/ACS_17_1YR_CP05/ACS_17_1YR_B02001.csv", stringsAsFactors = FALSE))#
+us_pop_tot <- sum(us17_pop_est$Population)
+basemap <- plot_usmap(regions = "states") + plain_theme()
+basemap <- plot_usmap(regions = "states") + plain_theme
+basemap
+ls()
+us17_pop_est
+dex_ind <- us17_pop_est %>% mutate(SLI = dex(Population/us_pop_tot), WLI = dex(White/Population), TWLI = SLI * WLI)
+dex_ind <- us17_pop_est %>% mutate(SLI = dex(Population,us_pop_tot), WLI = dex(White,Population), TWLI = SLI * WLI)
+dex_ind
+basemap <- plot_usmap(data = dex_ind, values = "TWLI")
+dex_ind
+colnames(dex_ind) <- c("fips","state","Population","White","SLI","WLI","TWLI")
+basemap <- plot_usmap(data = dex_ind, values = "TWLI")
+basemap
+basemap <- plot_usmap(data = dex_ind, values = "TWLI", lines = "grey")
+basemap
+basemap + theme_bw()
+help(usmap)
+base <- usmap
+base <- plot.usmap()
+base <- us_map(regions = "states")
+str(base)
+base
+ls(
+)
+class(base)
+colnames(dex_ind) <- c("fips","state","Population","White","SLI","WLI","TWLI")
+dex_tbl
+head(us17_pop_est)
+dex_ind <- us17_pop_est %>% mutate(fips = FIPS, state = STATE, SLI = dex(Population/us_pop_tot), WLI = dex(White/Population), TWLI = SLI * WLI)
+dex_ind <- us17_pop_est %>% mutate(fips = FIPS, state = State, SLI = dex(Population/us_pop_tot), WLI = dex(White/Population), TWLI = SLI * WLI)
+dex_ind <- us17_pop_est %>% mutate(fips = FIPS, state = State, SLI = dex(Population,us_pop_tot), WLI = dex(White,Population), TWLI = SLI * WLI)
+dex_ind
+dex_ind <- us17_pop_est %>% mutate(fips = FIPS, state = State, SLI = dex(Population,us_pop_tot), WLI = dex(White,Population), TWLI = SLI * WLI) %>% arrange(fips, state, Population, White, SLI, WLI, TWLI)
+dex_inx
+dex_ind
+dex_ind <- dex_ind %>% arrange(fips, state, Population, White, SLI, WLI, TWLI)
+dex_ind
+dex_ind <- us17_pop_est %>% mutate(fips = FIPS, state = State, SLI = dex(Population,us_pop_tot), WLI = dex(White,Population), TWLI = SLI * WLI) %>% select(fips, state, Population, White, SLI, WLI, TWLI)
+dex_ind
+ls()
+rm(basemap)
+load("/Users/rc/Desktop/gitmo/playpen/r/data/centroids.Rda")
+centroids
+head(base)
+ls()
+base
+head(bse)
+head(base)
+ls()
+head(dex_ind)
+ls()
+head(centroids)
+dsn <- "post/pini/sources/cb_2017_us_state_5m"#
+layer <- "cb_2017_us_state_5m"#
+states <- st_read(dsn, layer, stringsAsFactors = FALSE)#
+centroids <- SpatialPointsDataFrame(gCentroid(states, byid=TRUE), states@data, match.ID=FALSE)
+help(sf)
+centroids <- st_centroids(states)
+centroids <- st_centroid(states)
+centroids
+label_loc <- centroids %>% select (STATEFP,geometry)
+label_loc
+foo <- label_loc$2
+foo <- label_loc$geometry
+str(foo)
+foo[1]
+foo[1][1]
+foo[[1]]
+foo[[1]][1]
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2])
+label_point
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEPF) %>% select(fips, clong, clang)
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP) %>% select(fips, clong, clang)
+label_point
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP) %>% select(fips, clong, clang) %>% mutate(geometry = NULL)
+label_point
+str(lable_point)
+str(label_point)
+label_point <- label_loc %>% as.tibble(mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP) %>% select(fips, clong, clang) %>% mutate(geometry = NULL))
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP) %>% select(fips, clong, clang) %>% select(-geometry)
+label_point
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP) %>% transmute(fips = fips, clong = clong, clang = clang)
+label_point
+select(label_point$geometry)
+label_point <- label_loc %>% mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP)
+label_point as_tibble(label_point)
+label_point <-  as_tibble(label_point)
+label_point
+label_point <- label_loc %>% as.tibble)mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP)) %>% select(fips, clong,clang)
+label_point <- label_loc %>% as.tibble(mutate(clong = geometry[[1]][1], clang = geometry[[1]][2]) %>% mutate(fips = STATEFP)) %>% select(fips, clong,clang)
+label_point <-  as_tibble(label_point)
+label_point
+state_labels <- label_point %>% select(fips, clong, clang)
+state_labels
+state_labels$clong
+label_point <- label_loc %>% as.tibble(mutate(clong = geometry[[]][1], clang = geometry[[]][2]) %>% mutate(fips = STATEFP)) %>% select(fips, clong,clang)
+label_point <- label_loc %>% as.tibble(mutate(clong = geometry[[.]][1], clang = geometry[[.]][2]) %>% mutate(fips = STATEFP)) %>% select(fips, clong,clang)
+help(mutate)
+label_points
+ls()
+state_labels
+rm(state_labels)
+label_loc
+foo <- label_loc[1]$geometry
+foo
+foo[1]
+foo <- foo[1]
+st_cast(foo, to, dbl)
+st_cast(foo, dbl)
+class(foo)
+st_geometry(foo, dataframe = 1:2)
+str(foo)
+str(foo[1])
+str(foo[[1]])
+str(foo[[1]][2])
+str(foo[[1]][2][3])
+str(foo[[1]][2],[[1]][3])
+summary(foo)
+st_write(foo)
+as.tibble(foo)
+str(foo)
+class(foo)
+dex_ind
+chart1 <- dex_tbl %>%#
+  filter(!is.na(TWLI)) %>%#
+  arrange(TWLI) %>%#
+  mutate(State=factor(State, State))
+dex_tbl <- us17_pop_est %>% mutate("SLI" = round(dex(Population,us_pop_tot),2), "WLI" = round(dex(Population,White),2), "TWLI" = round(SLI * WLI),2) %>% select(State, SLI, WLI, TWLI)
+dex_tbl
+q()

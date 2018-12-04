@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politics on Locus: Richard Careaga</title>
+    <link>https://technocrat.rbind.io/tags/politics/</link>
+    <description>Recent content in Politics on Locus: Richard Careaga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://technocrat.rbind.io/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Population and Ethnic Leverage in Control of U.S. Senate</title>
+      <link>https://technocrat.rbind.io/2018/11/10/population-and-ethnic-leverage-in-control-of-u-s-senate/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://technocrat.rbind.io/2018/11/10/population-and-ethnic-leverage-in-control-of-u-s-senate/</guid>
+      <description>## Please note: Alaska and Hawaii are being shifted and are not to scale. ## Getting data from the 2012-2016 5-year ACS ## Parsed with column specification: ## cols( ## NAME = col_character(), ## Q22018_GDP = col_double() ## ) Population Among States Was Unevenly Distributed in the First Census 1790 Population Density
+  Table 1: States in 1790    State  Population  Proportion_US  Cumulative  Voters  Proportion_Instate  Cumulative_US      Delaware  59,094  0.</description>
+    </item>
+    
+  </channel>
+</rss>
