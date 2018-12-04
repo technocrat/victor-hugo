@@ -24,14 +24,9 @@ print(&quot;Data Structure&quot;)</code></pre>
 <pre class="r"><code>house &lt;- read_csv(&#39;/Users/rc/projects/statistics-for-data-scientists/kc_house_data.csv&#39;, comment = &#39;&#39;)</code></pre>
 <pre><code>## Parsed with column specification:
 ## cols(
-##   .default = col_integer(),
+##   .default = col_double(),
 ##   id = col_character(),
-##   date = col_datetime(format = &quot;&quot;),
-##   price = col_double(),
-##   bathrooms = col_double(),
-##   floors = col_double(),
-##   lat = col_double(),
-##   long = col_double()
+##   date = col_datetime(format = &quot;&quot;)
 ## )</code></pre>
 <pre><code>## See spec(...) for full column specifications.</code></pre>
 <pre class="r"><code>spec(house)</code></pre>
@@ -39,24 +34,24 @@ print(&quot;Data Structure&quot;)</code></pre>
 ##   id = col_character(),
 ##   date = col_datetime(format = &quot;&quot;),
 ##   price = col_double(),
-##   bedrooms = col_integer(),
+##   bedrooms = col_double(),
 ##   bathrooms = col_double(),
-##   sqft_living = col_integer(),
-##   sqft_lot = col_integer(),
+##   sqft_living = col_double(),
+##   sqft_lot = col_double(),
 ##   floors = col_double(),
-##   waterfront = col_integer(),
-##   view = col_integer(),
-##   condition = col_integer(),
-##   grade = col_integer(),
-##   sqft_above = col_integer(),
-##   sqft_basement = col_integer(),
-##   yr_built = col_integer(),
-##   yr_renovated = col_integer(),
-##   zipcode = col_integer(),
+##   waterfront = col_double(),
+##   view = col_double(),
+##   condition = col_double(),
+##   grade = col_double(),
+##   sqft_above = col_double(),
+##   sqft_basement = col_double(),
+##   yr_built = col_double(),
+##   yr_renovated = col_double(),
+##   zipcode = col_double(),
 ##   lat = col_double(),
 ##   long = col_double(),
-##   sqft_living15 = col_integer(),
-##   sqft_lot15 = col_integer()
+##   sqft_living15 = col_double(),
+##   sqft_lot15 = col_double()
 ## )</code></pre>
 <pre class="r"><code>mod &lt;- lm(price ~ bedrooms + bathrooms + sqft_living + sqft_lot + yr_built, data = house)
 summary(mod)</code></pre>
