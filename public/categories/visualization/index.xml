@@ -6,10 +6,19 @@
     <description>Recent content in Visualization on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://technocrat.rbind.io/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Color Map Atlas for Continuously Scaled Maps</title>
+      <link>https://technocrat.rbind.io/2018/12/03/color-map-atlas-for-continuously-scaled-maps/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://technocrat.rbind.io/2018/12/03/color-map-atlas-for-continuously-scaled-maps/</guid>
+      <description>## Please note: Alaska and Hawaii are being shifted and are not to scale. ## Getting data from the 2012-2016 5-year ACS ## Parsed with column specification: ## cols( ## NAME = col_character(), ## Q22018_GDP = col_double() ## ) Color, Design and Communication Graphic design standards, especially for color, are an official Good Thing. Branding, visual cueing, consistency. Map colors are hard, especially when dealing with continuous data.</description>
+    </item>
     
     <item>
       <title>WaPo has some effective visualizations</title>
