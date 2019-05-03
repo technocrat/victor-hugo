@@ -1,7 +1,0 @@
----
-title: "Metadata for pini sources"
-output: github_document
----
-
-1. SenateClasses.csv https://goo.gl/38Jm36 2018-11-09 headers represent the election years for each Senate seat, excluding 2018 seats
-2. ACS 2017 Population estimates https://goo.gl/9DLfZu

@@ -259,15 +259,6 @@ What happens when we start applying the same tools to complex systems? What are 
     </item>
     
     <item>
-      <title>Newtonian Data Sciences</title>
-      <link>/2018/08/06/newtonian-data-sciences/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/06/newtonian-data-sciences/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>An error message is as much of a question as it is an answer</title>
       <link>/2018/08/05/an-error-message-is-as-much-of-a-question-as-it-is-an-answer/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
@@ -279,12 +270,12 @@ When you find the answer to a question you don’t understand, you can expect to
     </item>
     
     <item>
-      <title>Metadata for pini sources</title>
-      <link>/1/01/01/metadata-for-pini-sources/</link>
+      <title></title>
+      <link>/1/01/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/metadata-for-pini-sources/</guid>
-      <description> SenateClasses.csv https://goo.gl/38Jm36 2018-11-09 headers represent the election years for each Senate seat, excluding 2018 seats ACS 2017 Population estimates https://goo.gl/9DLfZu  </description>
+      <guid>/1/01/01/</guid>
+      <description></description>
     </item>
     
   </channel>

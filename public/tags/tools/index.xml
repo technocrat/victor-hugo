@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on Locus: Richard Careaga</title>
+    <title>tools on Locus: Richard Careaga</title>
     <link>/tags/tools/</link>
-    <description>Recent content in Tools on Locus: Richard Careaga</description>
+    <description>Recent content in tools on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
@@ -47,15 +47,6 @@
       <guid>/2018/08/06/newtonian-data-sciences/</guid>
       <description>Advanced machine learning and AI strike me as deterministic finite state machines with an error term. Properly tuned, the same input should produce much the same output every time. Like Newtonian physics, they can be complicated, but deconstructible into simple components. Like Newtonian physics, as well, they are highly accurate and reliable within their domain.
 What happens when we start applying the same tools to complex systems? What are the complex systems of importance that refuse to yield identical results with identical inputs?</description>
-    </item>
-    
-    <item>
-      <title>Newtonian Data Sciences</title>
-      <link>/2018/08/06/newtonian-data-sciences/</link>
-      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/08/06/newtonian-data-sciences/</guid>
-      <description></description>
     </item>
     
   </channel>

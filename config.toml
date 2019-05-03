@@ -15,10 +15,6 @@ baseURL = "https://technocrat.rbind.io/"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
 
 [[menu.main]]
     name = "GitHub"
