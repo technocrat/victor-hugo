@@ -1,0 +1,113 @@
+---
+title: "About: Richard Careaga"
+description: |
+  Analytic data scientist with deep business background 
+author:
+  - name: Richard Careaga 
+    url: https://technocrat.rbind.io
+    affiliation: The Beached Consultancy
+    affiliation_url: https://technocrat.rbind.io/beached
+date: 12-17-2018
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+Richard Careaga lives in Kirkland, Washington, a suburb of Seattle. He studies analytic data science, walks, cooks, reads history and biography and contemplates visiting Iceland before they turn it into a *Game of Thrones* theme park.
+
+I'm on the analytic side of the house. What interests me is completely understanding the problem the enterprise is trying to solve, the data at hand, its quality, its basic statistical properties. Then what interesting models will the data support, which withstands stress testing, and how can it be made understandable to non-specialists?
+
+### Education
+
+* J.D. University of California, Davis (Coif (honors), Senior Editor U.C. Law Review) 
+* M.R.P. University of Massachusetts (planning)
+* M.S The Ohio State University (geology/geophysics) 
+* A.B. Occidental College (geology)
+
+### Toolkit
+
+* R
+* Python
+* MySQL 
+* Bash
+* AWS
+
+### Skills
+
+* Data wrangling
+* Refactoring code to `tidyverse` ecosystem
+* Exploratory data analysis
+* Directed acyclic diagramming of causal analysis
+* Principal component analysis
+* K-means neighbor clustering
+* Visualization and dashboarding
+* Standard statistical testing
+* Inference and modeling
+* Linear regression, logistic regression
+* Smoothing
+* Matrices
+* K-nearest neighbors
+* Cross validation
+* Bootstrap sampling
+* Machine learning
+* Social network analysis
+* Natural language processing
+
+### Representative Real World Work
+
+NB: 
+
+> I have two years of paid data science work. It was self-assigned, unsupervised, and wildly out of my nominal sphere of responsibility. I am looking for work in the Seattle area at a junior level with compensation to match the position (not, for the avoidance of doubt, the mid-six figures of my last job).
+
+* Produced only working cash flow model to Securities and Exchange Commission https://goo.gl/nBTnhC
+
+* Converted 100 spreadsheets to SQL database with 125,000 records andapproximately 50 fields to analyze causes of subprime mortgage loan performance and default in 14 public securities pools
+
+* Analyzed 500,000 emails, deduplicated and identified social networks in the Enron email data set after converting nested directory tree to SQL database
+
+* For an academic medical researcher refactored **R** code written in procedural style to idiomatic R, reducing 181 lines of difficult to follow code into 25 clean lines. Assisted in reducing 283 source files to 4 of interest and target the fields of interest. Worked around files with duplicate keys to abstract an approximately 3000 x 6 data frame for analysis.
+
+### Business Experience
+
+Designed process flows for monthly, high-value transactions for sales of residential mortgage loans in bulk and in securitized form. Drafted standard forms and reviewed one- off substantive changes to transaction documents. Monitored corporate and credit authority for execution. Reviewed third-party participant required disclosures. Supervised regulatory filings in connection with registered offerings. Trained new business units in the use of ISDA (derivatives) agreements and accurate identification of counter party legal entity among affiliated companies. Conformed contract forms to changes in applicable GAAP. Created database of purchase contracts tied to loan pools.
+
+Administrative Law Judge for California Public Utility. Handled high profile cases in electric utility deregulation, including stranded cost recovery bonds and in the opening of local telecommunications, including arbitrating interconnection agreements between Pacific Bell (since merged into AT&T) and new entrants into wireline telephone utilities markets.
+
+Corporate associate at Orrick, San Francisco, now a world wide Big 50 law firm. Corporate formation, governance, SEC reporting, M&A, debt, structured finance, letters of credit, secured lending, securitization prospectuses and related transaction documents, project finance, proxy contests, private placements and non-profit incorporation and tax matters.
+
+Project manager, planning director, environmental scientist for 13 years participating in or directing civil and military planning and construction projects domestically and overseas.
+
+### Portfolio
+
+Examples of completed and work in progress can be found at https://technocrat.github.io/_book
+
+### Other links
+
+https://technocrat.rbind.io
+
+https://www.linkedin.com/in/richardcareaga
+
+https://twitter.com/technocrat/ 
+
+https://github.com/technocrat/ 
+
+https://community.rstudio.com/u/technocrat/activity
+
+
+
+### Contact
+
+RICHARD CAREAGA \
+450 CENTRAL WAY UNIT 2203 \
+KIRKLAND, WA 98033\
+PUBLIC_@_CAREAGA.NET\
+425#289#6647 @TECHNOCRAT
+
+
+
+
+
+
+
+
+

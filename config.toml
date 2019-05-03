@@ -56,8 +56,8 @@ baseURL = "https://technocrat.rbind.io/"
 
 [[menu.main]]
 
-    name = "RBloggers"
-    url = "https://www.r-bloggers.com"
+    name = "RStudio Community"
+    url = "https://community.rstudio.com/u/technocrat/activity"
     weight = 8
 
 [params]
