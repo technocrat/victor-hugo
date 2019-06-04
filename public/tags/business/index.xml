@@ -6,10 +6,20 @@
     <description>Recent content in Business on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/business/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>eDiscovery is pattern recognition and eyeballs are expensive</title>
+      <link>/2019/06/03/ediscovery-is-pattern-recognition-and-eyeballs-are-expensive/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/03/ediscovery-is-pattern-recognition-and-eyeballs-are-expensive/</guid>
+      <description>Clients are transforming their businesses with the tools of data science. How long do you suppose they will pay $50/hour for humans to read tons of ediscovery?
+The legal profession owes a great debt to the 19th century mathemetician Georg Boole whose work became the genesis of the boolean algebra that every lawyer is familiar through the use of keyword searches. For decades, it has helped us wade through more than we could read.</description>
+    </item>
     
     <item>
       <title>Data Science in the Board Room and C Suite</title>

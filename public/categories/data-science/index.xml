@@ -6,10 +6,31 @@
     <description>Recent content in Data Science on Locus: Richard Careaga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>eDiscovery is pattern recognition and eyeballs are expensive</title>
+      <link>/2019/06/03/ediscovery-is-pattern-recognition-and-eyeballs-are-expensive/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/06/03/ediscovery-is-pattern-recognition-and-eyeballs-are-expensive/</guid>
+      <description>Clients are transforming their businesses with the tools of data science. How long do you suppose they will pay $50/hour for humans to read tons of ediscovery?
+The legal profession owes a great debt to the 19th century mathemetician Georg Boole whose work became the genesis of the boolean algebra that every lawyer is familiar through the use of keyword searches. For decades, it has helped us wade through more than we could read.</description>
+    </item>
+    
+    <item>
+      <title>Row collapsing</title>
+      <link>/2019/05/03/duplicate-keys-for-multiple-logical-columns/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/05/03/duplicate-keys-for-multiple-logical-columns/</guid>
+      <description>Untidy happens It’s not always possible to store everything in a tidy but humongous data store. So, we have things like SQL foreign keys.
+Unfortunately, the database may not have been set up with future tidy in mind. Or, database access is only provided through CSV files.
+Here’s an example of what can happen. We begin with some basic information, as tidy as we could wish with not too much effort.</description>
+    </item>
     
     <item>
       <title>The compiler will tell you what the user cannot</title>
