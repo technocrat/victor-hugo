@@ -1,3 +1,6 @@
 [submodule "lithium-theme"] 
   path = path_to_submodule 
   url = git://https://github.com/technocrat/victor-hugo/themes/
+[submodule "tufte-latex"] 
+  path = path_to_submodule 
+  url = git://https://github.com/technocrat/tufte-latex/
