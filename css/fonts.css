@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Surveyor';
+  font-style: normal;
+  font-weight: 400;
+}
+body {
+  font-family: 'Surveyor', serif;
+}
+h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
+  font-family: 'Gotham', sans-serif;
+}

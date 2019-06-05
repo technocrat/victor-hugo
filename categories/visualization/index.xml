@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Locus: Richard Careaga</title>
+    <link>/categories/visualization/</link>
+    <description>Recent content in Visualization on Locus: Richard Careaga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Less coding and more analysis</title>
+      <link>/2018/12/09/less-coding-and-more-analysis/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/12/09/less-coding-and-more-analysis/</guid>
+      <description>I urge you to install.packages(&#34;ExPanDaR&#34;) and then try the following:
+  library(ExPanDaR) wb  from Interactive panel EDA with 3 lines of code, which doesn’t show the output to its best advantage, for which see online demo</description>
+    </item>
+    
+    <item>
+      <title>Color Map Atlas for Continuously Scaled Maps</title>
+      <link>/2018/12/03/color-map-atlas-for-continuously-scaled-maps/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/12/03/color-map-atlas-for-continuously-scaled-maps/</guid>
+      <description>Color, Design and Communication Graphic design standards, especially for color, are an official Good Thing. Branding, visual cueing, consistency. Map colors are hard, especially when dealing with continuous data.
+ An example of continuous data The U.S. Bureau of Economic Analysis publishes quarterly statistics on gross domestic product by state.1. For the second quarter 2018, it provided the following.
+ (#tab:gdp_table)2018 Second Quarter GDP for the 50 States    NAME  GDP      Alabama  221,026,000    Alaska  53,944,000    Arizona  344,636,000    Arkansas  127,951,000    California  2,935,332,000    Colorado  363,845,000    Connecticut  272,745,000    Delaware  74,717,000    Florida  1,029,154,000    Georgia  587,325,000    Hawaii  91,048,000    Idaho  76,187,000    Illinois  859,067,000    Indiana  369,209,000    Iowa  189,299,000    Kansas  164,018,000    Kentucky  209,562,000    Louisiana  249,726,000    Maine  64,203,000    Maryland  414,373,000    Massachusetts  569,290,000    Michigan  532,039,000    Minnesota  362,904,000    Mississippi  113,334,000    Missouri  316,735,000    Montana  49,514,000    Nebraska  123,363,000    Nevada  167,708,000    New Hampshire  85,548,000    New Jersey  626,824,000    New Mexico  98,390,000    New York  1,675,685,000    North Carolina  565,300,000    North Dakota  55,180,000    Ohio  672,055,000    Oklahoma  199,572,000    Oregon  238,687,000    Pennsylvania  788,842,000    Rhode Island  61,168,000    South Carolina  230,213,000    South Dakota  51,721,000    Tennessee  365,129,000    Texas  1,755,634,000    Utah  175,601,000    Vermont  33,522,000    Virginia  532,896,000    Washington  559,011,000    West Virginia  77,748,000    Wisconsin  335,560,000    Wyoming  40,384,000     The two obvious things from the chart are that the numbers differ and that in general the larger states in population are also the larger states in GDP.</description>
+    </item>
+    
+    <item>
+      <title>WaPo has some effective visualizations</title>
+      <link>/2018/09/09/wapo-has-some-effective-visualizations/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/09/09/wapo-has-some-effective-visualizations/</guid>
+      <description>One of the annoyances of online newspapers such as the NYT and WaPo is that they recycle content, usually off-the-news-cycle. But this sometimes gets offset by finding something you missed the first time.
+In a recent article on six common occcupations that have changed from above-average to below average pay, the 2018-09-04 article by Andrew Van Dam and Heather Long is illustrated by some effective techniques.
+One technique is using the colors in the caption to serve as a legend to color coding in the graphic.</description>
+    </item>
+    
+  </channel>
+</rss>
