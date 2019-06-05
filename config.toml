@@ -21,40 +21,24 @@ baseURL = "https://technocrat.rbind.io/"
     url = "https://github.com/technocrat"
     weight = 2
 
-[[menu.main]]
-    name = "Portfolio"
-    url = "https://technocrat.github.io/_book/"
-    weight = 3
-
-[[menu.main]]
-
-    name = "Quotes"
-    url = "/quotes/"
-    weight = 4
 
 [[menu.main]]
 
     name = "LinkedIn"
     url = "https://linkedin.com/in/richardcareaga"
-    weight = 5
+    weight = 3
 
 [[menu.main]]
 
     name = "Twitter"
     url = "https://twitter.com/technocrat"
-    weight = 6
-
-[[menu.main]]
-
-    name = "Employment"
-    url = "/employment/"
-    weight = 7
+    weight = 4
 
 [[menu.main]]
 
     name = "RStudio Community"
     url = "https://community.rstudio.com/u/technocrat/activity"
-    weight = 8
+    weight = 5
 
 [params]
     description = "A website built through Hugo and blogdown."
